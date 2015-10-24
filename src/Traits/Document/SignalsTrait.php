@@ -241,7 +241,7 @@ trait SignalsTrait
     /**
      * Sets the Signals data.
      *
-     * @param array|null $signalsData the signals data
+     * @param array|null $data the signals data
      *
      * @return self
      */

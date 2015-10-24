@@ -241,7 +241,7 @@ trait HubicTrait
     /**
      * Sets the Hubic data.
      *
-     * @param array|null $hubicData the hubic data
+     * @param array|null $data the hubic data
      *
      * @return self
      */

@@ -241,7 +241,7 @@ trait TwitterTrait
     /**
      * Sets the Twitter data.
      *
-     * @param array|null $twitterData the twitter data
+     * @param array|null $data the twitter data
      *
      * @return self
      */

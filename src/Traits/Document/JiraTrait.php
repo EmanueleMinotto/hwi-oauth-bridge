@@ -241,7 +241,7 @@ trait JiraTrait
     /**
      * Sets the Jira data.
      *
-     * @param array|null $jiraData the jira data
+     * @param array|null $data the jira data
      *
      * @return self
      */

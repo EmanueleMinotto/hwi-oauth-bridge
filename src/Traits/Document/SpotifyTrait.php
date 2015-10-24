@@ -241,7 +241,7 @@ trait SpotifyTrait
     /**
      * Sets the Spotify data.
      *
-     * @param array|null $spotifyData the spotify data
+     * @param array|null $data the spotify data
      *
      * @return self
      */

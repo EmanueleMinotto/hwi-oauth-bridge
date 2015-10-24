@@ -241,7 +241,7 @@ trait RedditTrait
     /**
      * Sets the Reddit data.
      *
-     * @param array|null $redditData the reddit data
+     * @param array|null $data the reddit data
      *
      * @return self
      */

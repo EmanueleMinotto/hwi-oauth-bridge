@@ -241,7 +241,7 @@ trait XingTrait
     /**
      * Sets the Xing data.
      *
-     * @param array|null $xingData the xing data
+     * @param array|null $data the xing data
      *
      * @return self
      */

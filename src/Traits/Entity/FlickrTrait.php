@@ -241,7 +241,7 @@ trait FlickrTrait
     /**
      * Sets the Flickr data.
      *
-     * @param array|null $flickrData the flickr data
+     * @param array|null $data the flickr data
      *
      * @return self
      */

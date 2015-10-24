@@ -241,7 +241,7 @@ trait FiwareTrait
     /**
      * Sets the Fiware data.
      *
-     * @param array|null $fiwareData the fiware data
+     * @param array|null $data the fiware data
      *
      * @return self
      */

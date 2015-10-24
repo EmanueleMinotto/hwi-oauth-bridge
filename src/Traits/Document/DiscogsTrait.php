@@ -241,7 +241,7 @@ trait DiscogsTrait
     /**
      * Sets the Discogs data.
      *
-     * @param array|null $discogsData the discogs data
+     * @param array|null $data the discogs data
      *
      * @return self
      */

@@ -241,7 +241,7 @@ trait AzureTrait
     /**
      * Sets the Azure data.
      *
-     * @param array|null $azureData the azure data
+     * @param array|null $data the azure data
      *
      * @return self
      */

@@ -241,7 +241,7 @@ trait DisqusTrait
     /**
      * Sets the Disqus data.
      *
-     * @param array|null $disqusData the disqus data
+     * @param array|null $data the disqus data
      *
      * @return self
      */

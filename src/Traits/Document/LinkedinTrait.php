@@ -241,7 +241,7 @@ trait LinkedinTrait
     /**
      * Sets the Linkedin data.
      *
-     * @param array|null $linkedinData the linkedin data
+     * @param array|null $data the linkedin data
      *
      * @return self
      */

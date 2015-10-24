@@ -241,7 +241,7 @@ trait BitlyTrait
     /**
      * Sets the Bitly data.
      *
-     * @param array|null $bitlyData the bitly data
+     * @param array|null $data the bitly data
      *
      * @return self
      */

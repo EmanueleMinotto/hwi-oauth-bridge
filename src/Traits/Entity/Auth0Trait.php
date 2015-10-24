@@ -241,7 +241,7 @@ trait Auth0Trait
     /**
      * Sets the Auth0 data.
      *
-     * @param array|null $auth0Data the auth0 data
+     * @param array|null $data the auth0 data
      *
      * @return self
      */

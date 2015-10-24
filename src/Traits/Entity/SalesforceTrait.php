@@ -241,7 +241,7 @@ trait SalesforceTrait
     /**
      * Sets the Salesforce data.
      *
-     * @param array|null $salesforceData the salesforce data
+     * @param array|null $data the salesforce data
      *
      * @return self
      */

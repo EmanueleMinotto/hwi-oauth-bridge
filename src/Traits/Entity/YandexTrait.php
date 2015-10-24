@@ -241,7 +241,7 @@ trait YandexTrait
     /**
      * Sets the Yandex data.
      *
-     * @param array|null $yandexData the yandex data
+     * @param array|null $data the yandex data
      *
      * @return self
      */

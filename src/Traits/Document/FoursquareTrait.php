@@ -241,7 +241,7 @@ trait FoursquareTrait
     /**
      * Sets the Foursquare data.
      *
-     * @param array|null $foursquareData the foursquare data
+     * @param array|null $data the foursquare data
      *
      * @return self
      */

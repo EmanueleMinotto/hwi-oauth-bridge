@@ -241,7 +241,7 @@ trait AmazonTrait
     /**
      * Sets the Amazon data.
      *
-     * @param array|null $amazonData the amazon data
+     * @param array|null $data the amazon data
      *
      * @return self
      */

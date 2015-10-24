@@ -241,7 +241,7 @@ trait VkontakteTrait
     /**
      * Sets the Vkontakte data.
      *
-     * @param array|null $vkontakteData the vkontakte data
+     * @param array|null $data the vkontakte data
      *
      * @return self
      */

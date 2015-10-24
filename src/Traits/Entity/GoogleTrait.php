@@ -241,7 +241,7 @@ trait GoogleTrait
     /**
      * Sets the Google data.
      *
-     * @param array|null $googleData the google data
+     * @param array|null $data the google data
      *
      * @return self
      */

@@ -241,7 +241,7 @@ trait TwitchTrait
     /**
      * Sets the Twitch data.
      *
-     * @param array|null $twitchData the twitch data
+     * @param array|null $data the twitch data
      *
      * @return self
      */

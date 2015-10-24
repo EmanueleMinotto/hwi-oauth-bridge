@@ -241,7 +241,7 @@ trait FacebookTrait
     /**
      * Sets the Facebook data.
      *
-     * @param array|null $facebookData the facebook data
+     * @param array|null $data the facebook data
      *
      * @return self
      */
