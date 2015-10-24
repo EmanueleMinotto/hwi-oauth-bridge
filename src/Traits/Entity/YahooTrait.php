@@ -97,15 +97,6 @@ trait YahooTrait
     private $yahooExpiresIn;
 
     /**
-     * Yahoo expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $yahooExpiresIn;
-
-    /**
      * Yahoo data.
      *
      * @var array|null

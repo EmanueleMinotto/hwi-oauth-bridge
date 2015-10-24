@@ -97,15 +97,6 @@ trait AmazonTrait
     private $amazonExpiresIn;
 
     /**
-     * Amazon expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $amazonExpiresIn;
-
-    /**
      * Amazon data.
      *
      * @var array|null

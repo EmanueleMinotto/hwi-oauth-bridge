@@ -97,15 +97,6 @@ trait EveOnlineTrait
     private $eveOnlineExpiresIn;
 
     /**
-     * EveOnline expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $eveOnlineExpiresIn;
-
-    /**
      * EveOnline data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait FacebookTrait
     private $facebookExpiresIn;
 
     /**
-     * Facebook expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $facebookExpiresIn;
-
-    /**
      * Facebook data.
      *
      * @var array|null

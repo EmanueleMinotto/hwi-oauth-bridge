@@ -92,16 +92,7 @@ trait SpotifyTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $spotifyExpiresIn;
-
-    /**
-     * Spotify expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $spotifyExpiresIn;
 

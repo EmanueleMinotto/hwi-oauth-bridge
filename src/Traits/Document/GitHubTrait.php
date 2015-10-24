@@ -97,15 +97,6 @@ trait GitHubTrait
     private $gitHubExpiresIn;
 
     /**
-     * GitHub expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $gitHubExpiresIn;
-
-    /**
      * GitHub data.
      *
      * @var array|null

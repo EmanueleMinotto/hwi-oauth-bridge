@@ -97,15 +97,6 @@ trait SpotifyTrait
     private $spotifyExpiresIn;
 
     /**
-     * Spotify expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $spotifyExpiresIn;
-
-    /**
      * Spotify data.
      *
      * @var array|null

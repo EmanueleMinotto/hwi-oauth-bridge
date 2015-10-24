@@ -92,16 +92,7 @@ trait VkontakteTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $vkontakteExpiresIn;
-
-    /**
-     * Vkontakte expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $vkontakteExpiresIn;
 

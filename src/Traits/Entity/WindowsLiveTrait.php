@@ -97,15 +97,6 @@ trait WindowsLiveTrait
     private $windowsLiveExpiresIn;
 
     /**
-     * WindowsLive expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $windowsLiveExpiresIn;
-
-    /**
      * WindowsLive data.
      *
      * @var array|null

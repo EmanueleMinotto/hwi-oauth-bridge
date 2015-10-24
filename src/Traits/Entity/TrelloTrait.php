@@ -97,15 +97,6 @@ trait TrelloTrait
     private $trelloExpiresIn;
 
     /**
-     * Trello expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $trelloExpiresIn;
-
-    /**
      * Trello data.
      *
      * @var array|null

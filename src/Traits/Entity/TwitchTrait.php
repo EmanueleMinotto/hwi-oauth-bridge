@@ -97,15 +97,6 @@ trait TwitchTrait
     private $twitchExpiresIn;
 
     /**
-     * Twitch expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $twitchExpiresIn;
-
-    /**
      * Twitch data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait MailruTrait
     private $mailruExpiresIn;
 
     /**
-     * Mailru expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $mailruExpiresIn;
-
-    /**
      * Mailru data.
      *
      * @var array|null

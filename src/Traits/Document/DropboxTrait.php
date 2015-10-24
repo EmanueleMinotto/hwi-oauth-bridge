@@ -92,16 +92,7 @@ trait DropboxTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $dropboxExpiresIn;
-
-    /**
-     * Dropbox expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $dropboxExpiresIn;
 

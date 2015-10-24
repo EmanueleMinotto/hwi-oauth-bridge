@@ -97,15 +97,6 @@ trait SalesforceTrait
     private $salesforceExpiresIn;
 
     /**
-     * Salesforce expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $salesforceExpiresIn;
-
-    /**
      * Salesforce data.
      *
      * @var array|null

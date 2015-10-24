@@ -92,16 +92,7 @@ trait RedditTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $redditExpiresIn;
-
-    /**
-     * Reddit expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $redditExpiresIn;
 

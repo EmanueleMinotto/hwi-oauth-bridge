@@ -92,16 +92,7 @@ trait ToshlTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $toshlExpiresIn;
-
-    /**
-     * Toshl expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $toshlExpiresIn;
 

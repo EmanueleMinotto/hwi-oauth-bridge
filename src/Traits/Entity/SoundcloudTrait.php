@@ -97,15 +97,6 @@ trait SoundcloudTrait
     private $soundcloudExpiresIn;
 
     /**
-     * Soundcloud expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $soundcloudExpiresIn;
-
-    /**
      * Soundcloud data.
      *
      * @var array|null

@@ -92,16 +92,7 @@ trait FiwareTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $fiwareExpiresIn;
-
-    /**
-     * Fiware expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $fiwareExpiresIn;
 

@@ -92,16 +92,7 @@ trait BitlyTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $bitlyExpiresIn;
-
-    /**
-     * Bitly expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $bitlyExpiresIn;
 

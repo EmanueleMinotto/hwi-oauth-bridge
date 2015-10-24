@@ -92,16 +92,7 @@ trait MailruTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $mailruExpiresIn;
-
-    /**
-     * Mailru expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $mailruExpiresIn;
 

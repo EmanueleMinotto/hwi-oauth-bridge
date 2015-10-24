@@ -92,16 +92,7 @@ trait DiscogsTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $discogsExpiresIn;
-
-    /**
-     * Discogs expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $discogsExpiresIn;
 

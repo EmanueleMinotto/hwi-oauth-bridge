@@ -92,16 +92,7 @@ trait OdnoklassnikiTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $odnoklassnikiExpiresIn;
-
-    /**
-     * Odnoklassniki expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $odnoklassnikiExpiresIn;
 

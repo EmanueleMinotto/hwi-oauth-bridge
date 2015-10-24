@@ -97,15 +97,6 @@ trait DiscogsTrait
     private $discogsExpiresIn;
 
     /**
-     * Discogs expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $discogsExpiresIn;
-
-    /**
      * Discogs data.
      *
      * @var array|null

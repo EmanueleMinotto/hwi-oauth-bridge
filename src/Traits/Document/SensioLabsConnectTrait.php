@@ -97,15 +97,6 @@ trait SensioLabsConnectTrait
     private $sensioLabsConnectExpiresIn;
 
     /**
-     * SensioLabsConnect expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $sensioLabsConnectExpiresIn;
-
-    /**
      * SensioLabsConnect data.
      *
      * @var array|null

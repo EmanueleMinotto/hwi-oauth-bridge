@@ -97,15 +97,6 @@ trait StereomoodTrait
     private $stereomoodExpiresIn;
 
     /**
-     * Stereomood expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $stereomoodExpiresIn;
-
-    /**
      * Stereomood data.
      *
      * @var array|null

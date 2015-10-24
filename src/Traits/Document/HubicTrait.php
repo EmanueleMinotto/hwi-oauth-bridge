@@ -92,16 +92,7 @@ trait HubicTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $hubicExpiresIn;
-
-    /**
-     * Hubic expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $hubicExpiresIn;
 

@@ -97,15 +97,6 @@ trait DropboxTrait
     private $dropboxExpiresIn;
 
     /**
-     * Dropbox expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $dropboxExpiresIn;
-
-    /**
      * Dropbox data.
      *
      * @var array|null

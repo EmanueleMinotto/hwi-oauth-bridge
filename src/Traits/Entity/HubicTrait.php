@@ -97,15 +97,6 @@ trait HubicTrait
     private $hubicExpiresIn;
 
     /**
-     * Hubic expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $hubicExpiresIn;
-
-    /**
      * Hubic data.
      *
      * @var array|null

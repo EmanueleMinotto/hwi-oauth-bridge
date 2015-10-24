@@ -97,15 +97,6 @@ trait GitHubTrait
     private $gitHubExpiresIn;
 
     /**
-     * GitHub expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $gitHubExpiresIn;
-
-    /**
      * GitHub data.
      *
      * @var array|null

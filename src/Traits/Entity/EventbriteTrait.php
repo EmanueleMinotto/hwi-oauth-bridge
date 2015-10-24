@@ -97,15 +97,6 @@ trait EventbriteTrait
     private $eventbriteExpiresIn;
 
     /**
-     * Eventbrite expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $eventbriteExpiresIn;
-
-    /**
      * Eventbrite data.
      *
      * @var array|null

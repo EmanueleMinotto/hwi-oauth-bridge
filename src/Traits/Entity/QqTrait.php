@@ -97,15 +97,6 @@ trait QqTrait
     private $qqExpiresIn;
 
     /**
-     * Qq expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $qqExpiresIn;
-
-    /**
      * Qq data.
      *
      * @var array|null

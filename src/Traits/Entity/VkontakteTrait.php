@@ -97,15 +97,6 @@ trait VkontakteTrait
     private $vkontakteExpiresIn;
 
     /**
-     * Vkontakte expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $vkontakteExpiresIn;
-
-    /**
      * Vkontakte data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait EveOnlineTrait
     private $eveOnlineExpiresIn;
 
     /**
-     * EveOnline expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $eveOnlineExpiresIn;
-
-    /**
      * EveOnline data.
      *
      * @var array|null

@@ -92,16 +92,7 @@ trait TrelloTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $trelloExpiresIn;
-
-    /**
-     * Trello expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $trelloExpiresIn;
 

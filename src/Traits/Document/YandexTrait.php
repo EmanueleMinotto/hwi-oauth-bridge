@@ -92,16 +92,7 @@ trait YandexTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $yandexExpiresIn;
-
-    /**
-     * Yandex expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $yandexExpiresIn;
 

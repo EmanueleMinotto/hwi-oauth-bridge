@@ -97,15 +97,6 @@ trait FoursquareTrait
     private $foursquareExpiresIn;
 
     /**
-     * Foursquare expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $foursquareExpiresIn;
-
-    /**
      * Foursquare data.
      *
      * @var array|null

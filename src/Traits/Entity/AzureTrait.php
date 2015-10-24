@@ -97,15 +97,6 @@ trait AzureTrait
     private $azureExpiresIn;
 
     /**
-     * Azure expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $azureExpiresIn;
-
-    /**
      * Azure data.
      *
      * @var array|null

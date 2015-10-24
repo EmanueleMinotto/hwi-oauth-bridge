@@ -97,15 +97,6 @@ trait YandexTrait
     private $yandexExpiresIn;
 
     /**
-     * Yandex expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $yandexExpiresIn;
-
-    /**
      * Yandex data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait RedditTrait
     private $redditExpiresIn;
 
     /**
-     * Reddit expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $redditExpiresIn;
-
-    /**
      * Reddit data.
      *
      * @var array|null

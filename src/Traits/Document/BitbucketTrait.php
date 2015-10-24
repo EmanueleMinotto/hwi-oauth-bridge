@@ -92,16 +92,7 @@ trait BitbucketTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $bitbucketExpiresIn;
-
-    /**
-     * Bitbucket expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $bitbucketExpiresIn;
 

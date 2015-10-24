@@ -97,15 +97,6 @@ trait GoogleTrait
     private $googleExpiresIn;
 
     /**
-     * Google expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $googleExpiresIn;
-
-    /**
      * Google data.
      *
      * @var array|null

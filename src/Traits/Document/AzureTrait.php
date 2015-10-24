@@ -92,16 +92,7 @@ trait AzureTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $azureExpiresIn;
-
-    /**
-     * Azure expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $azureExpiresIn;
 

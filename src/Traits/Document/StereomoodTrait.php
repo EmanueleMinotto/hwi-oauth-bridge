@@ -92,16 +92,7 @@ trait StereomoodTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $stereomoodExpiresIn;
-
-    /**
-     * Stereomood expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $stereomoodExpiresIn;
 

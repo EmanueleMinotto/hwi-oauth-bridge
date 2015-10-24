@@ -97,15 +97,6 @@ trait BitlyTrait
     private $bitlyExpiresIn;
 
     /**
-     * Bitly expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $bitlyExpiresIn;
-
-    /**
      * Bitly data.
      *
      * @var array|null

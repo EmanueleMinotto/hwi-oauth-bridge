@@ -92,16 +92,7 @@ trait InstagramTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $instagramExpiresIn;
-
-    /**
-     * Instagram expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $instagramExpiresIn;
 

@@ -92,16 +92,7 @@ trait SalesforceTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $salesforceExpiresIn;
-
-    /**
-     * Salesforce expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $salesforceExpiresIn;
 

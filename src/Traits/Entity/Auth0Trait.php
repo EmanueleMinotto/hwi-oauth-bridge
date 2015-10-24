@@ -97,15 +97,6 @@ trait Auth0Trait
     private $auth0ExpiresIn;
 
     /**
-     * Auth0 expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $auth0ExpiresIn;
-
-    /**
      * Auth0 data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait ToshlTrait
     private $toshlExpiresIn;
 
     /**
-     * Toshl expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $toshlExpiresIn;
-
-    /**
      * Toshl data.
      *
      * @var array|null

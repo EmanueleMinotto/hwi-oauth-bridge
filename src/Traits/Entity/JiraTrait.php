@@ -97,15 +97,6 @@ trait JiraTrait
     private $jiraExpiresIn;
 
     /**
-     * Jira expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $jiraExpiresIn;
-
-    /**
      * Jira data.
      *
      * @var array|null

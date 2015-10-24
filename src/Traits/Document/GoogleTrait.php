@@ -92,16 +92,7 @@ trait GoogleTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $googleExpiresIn;
-
-    /**
-     * Google expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $googleExpiresIn;
 

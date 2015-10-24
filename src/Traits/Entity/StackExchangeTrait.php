@@ -97,15 +97,6 @@ trait StackExchangeTrait
     private $stackExchangeExpiresIn;
 
     /**
-     * StackExchange expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $stackExchangeExpiresIn;
-
-    /**
      * StackExchange data.
      *
      * @var array|null

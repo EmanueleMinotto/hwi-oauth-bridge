@@ -92,16 +92,7 @@ trait SoundcloudTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $soundcloudExpiresIn;
-
-    /**
-     * Soundcloud expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $soundcloudExpiresIn;
 

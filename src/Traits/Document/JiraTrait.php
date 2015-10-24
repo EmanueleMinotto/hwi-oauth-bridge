@@ -92,16 +92,7 @@ trait JiraTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $jiraExpiresIn;
-
-    /**
-     * Jira expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $jiraExpiresIn;
 

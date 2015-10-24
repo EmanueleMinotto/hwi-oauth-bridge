@@ -97,15 +97,6 @@ trait AmazonTrait
     private $amazonExpiresIn;
 
     /**
-     * Amazon expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $amazonExpiresIn;
-
-    /**
      * Amazon data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait OdnoklassnikiTrait
     private $odnoklassnikiExpiresIn;
 
     /**
-     * Odnoklassniki expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $odnoklassnikiExpiresIn;
-
-    /**
      * Odnoklassniki data.
      *
      * @var array|null

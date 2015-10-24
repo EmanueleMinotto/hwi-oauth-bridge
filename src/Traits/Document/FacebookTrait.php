@@ -92,16 +92,7 @@ trait FacebookTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $facebookExpiresIn;
-
-    /**
-     * Facebook expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $facebookExpiresIn;
 

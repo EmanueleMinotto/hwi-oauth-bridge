@@ -97,15 +97,6 @@ trait InstagramTrait
     private $instagramExpiresIn;
 
     /**
-     * Instagram expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $instagramExpiresIn;
-
-    /**
      * Instagram data.
      *
      * @var array|null

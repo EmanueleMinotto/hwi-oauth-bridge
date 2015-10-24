@@ -92,16 +92,7 @@ trait SignalsTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $signalsExpiresIn;
-
-    /**
-     * Signals expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $signalsExpiresIn;
 

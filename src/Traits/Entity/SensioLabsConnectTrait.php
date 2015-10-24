@@ -97,15 +97,6 @@ trait SensioLabsConnectTrait
     private $sensioLabsConnectExpiresIn;
 
     /**
-     * SensioLabsConnect expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $sensioLabsConnectExpiresIn;
-
-    /**
      * SensioLabsConnect data.
      *
      * @var array|null

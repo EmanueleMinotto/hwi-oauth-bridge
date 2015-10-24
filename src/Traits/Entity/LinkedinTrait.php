@@ -97,15 +97,6 @@ trait LinkedinTrait
     private $linkedinExpiresIn;
 
     /**
-     * Linkedin expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $linkedinExpiresIn;
-
-    /**
      * Linkedin data.
      *
      * @var array|null

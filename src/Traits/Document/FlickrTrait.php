@@ -92,16 +92,7 @@ trait FlickrTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $flickrExpiresIn;
-
-    /**
-     * Flickr expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $flickrExpiresIn;
 

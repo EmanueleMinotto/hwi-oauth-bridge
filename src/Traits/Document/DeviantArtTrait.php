@@ -97,15 +97,6 @@ trait DeviantArtTrait
     private $deviantArtExpiresIn;
 
     /**
-     * DeviantArt expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $deviantArtExpiresIn;
-
-    /**
      * DeviantArt data.
      *
      * @var array|null

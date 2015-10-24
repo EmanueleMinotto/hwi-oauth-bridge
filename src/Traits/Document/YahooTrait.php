@@ -92,16 +92,7 @@ trait YahooTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $yahooExpiresIn;
-
-    /**
-     * Yahoo expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $yahooExpiresIn;
 

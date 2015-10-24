@@ -92,16 +92,7 @@ trait FoursquareTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $foursquareExpiresIn;
-
-    /**
-     * Foursquare expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $foursquareExpiresIn;
 

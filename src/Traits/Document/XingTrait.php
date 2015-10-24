@@ -92,16 +92,7 @@ trait XingTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $xingExpiresIn;
-
-    /**
-     * Xing expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $xingExpiresIn;
 

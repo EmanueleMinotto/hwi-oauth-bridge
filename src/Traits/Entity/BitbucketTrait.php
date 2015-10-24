@@ -97,15 +97,6 @@ trait BitbucketTrait
     private $bitbucketExpiresIn;
 
     /**
-     * Bitbucket expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $bitbucketExpiresIn;
-
-    /**
      * Bitbucket data.
      *
      * @var array|null

@@ -97,15 +97,6 @@ trait FiwareTrait
     private $fiwareExpiresIn;
 
     /**
-     * Fiware expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $fiwareExpiresIn;
-
-    /**
      * Fiware data.
      *
      * @var array|null

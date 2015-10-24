@@ -97,15 +97,6 @@ trait XingTrait
     private $xingExpiresIn;
 
     /**
-     * Xing expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $xingExpiresIn;
-
-    /**
      * Xing data.
      *
      * @var array|null

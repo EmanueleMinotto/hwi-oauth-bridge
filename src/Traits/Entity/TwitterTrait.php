@@ -97,15 +97,6 @@ trait TwitterTrait
     private $twitterExpiresIn;
 
     /**
-     * Twitter expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $twitterExpiresIn;
-
-    /**
      * Twitter data.
      *
      * @var array|null

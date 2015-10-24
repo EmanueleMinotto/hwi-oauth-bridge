@@ -97,15 +97,6 @@ trait SignalsTrait
     private $signalsExpiresIn;
 
     /**
-     * Signals expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $signalsExpiresIn;
-
-    /**
      * Signals data.
      *
      * @var array|null

@@ -92,16 +92,7 @@ trait TwitchTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $twitchExpiresIn;
-
-    /**
-     * Twitch expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $twitchExpiresIn;
 

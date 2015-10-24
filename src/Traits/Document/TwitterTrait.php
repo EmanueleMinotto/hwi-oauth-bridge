@@ -92,16 +92,7 @@ trait TwitterTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $twitterExpiresIn;
-
-    /**
-     * Twitter expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $twitterExpiresIn;
 

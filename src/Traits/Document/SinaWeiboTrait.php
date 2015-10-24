@@ -97,15 +97,6 @@ trait SinaWeiboTrait
     private $sinaWeiboExpiresIn;
 
     /**
-     * SinaWeibo expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $sinaWeiboExpiresIn;
-
-    /**
      * SinaWeibo data.
      *
      * @var array|null

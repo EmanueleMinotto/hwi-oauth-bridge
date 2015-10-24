@@ -97,15 +97,6 @@ trait DisqusTrait
     private $disqusExpiresIn;
 
     /**
-     * Disqus expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $disqusExpiresIn;
-
-    /**
      * Disqus data.
      *
      * @var array|null

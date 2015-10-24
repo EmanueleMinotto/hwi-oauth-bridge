@@ -97,15 +97,6 @@ trait PayPalTrait
     private $payPalExpiresIn;
 
     /**
-     * PayPal expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $payPalExpiresIn;
-
-    /**
      * PayPal data.
      *
      * @var array|null

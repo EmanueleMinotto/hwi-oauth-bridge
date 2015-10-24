@@ -92,16 +92,7 @@ trait LinkedinTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $linkedinExpiresIn;
-
-    /**
-     * Linkedin expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $linkedinExpiresIn;
 

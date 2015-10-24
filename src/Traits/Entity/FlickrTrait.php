@@ -97,15 +97,6 @@ trait FlickrTrait
     private $flickrExpiresIn;
 
     /**
-     * Flickr expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $flickrExpiresIn;
-
-    /**
      * Flickr data.
      *
      * @var array|null

@@ -92,16 +92,7 @@ trait EventbriteTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $eventbriteExpiresIn;
-
-    /**
-     * Eventbrite expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $eventbriteExpiresIn;
 

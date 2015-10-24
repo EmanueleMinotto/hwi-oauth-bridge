@@ -97,15 +97,6 @@ trait BufferAppTrait
     private $bufferAppExpiresIn;
 
     /**
-     * BufferApp expires in.
-     *
-     * @var string|null
-     *
-     * @ORM\Column(nullable = true)
-     */
-    private $bufferAppExpiresIn;
-
-    /**
      * BufferApp data.
      *
      * @var array|null

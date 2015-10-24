@@ -92,16 +92,7 @@ trait DisqusTrait
      *
      * @var string|null
      *
-     * @ODM\String
-     */
-    private $disqusExpiresIn;
-
-    /**
-     * Disqus expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
+     * @ODMString
      */
     private $disqusExpiresIn;
 

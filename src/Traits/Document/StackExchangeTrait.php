@@ -97,15 +97,6 @@ trait StackExchangeTrait
     private $stackExchangeExpiresIn;
 
     /**
-     * StackExchange expires in.
-     *
-     * @var string|null
-     *
-     * @ODM\String
-     */
-    private $stackExchangeExpiresIn;
-
-    /**
      * StackExchange data.
      *
      * @var array|null
