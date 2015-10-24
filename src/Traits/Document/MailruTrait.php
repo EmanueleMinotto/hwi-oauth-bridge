@@ -1,0 +1,380 @@
+<?php
+
+namespace EmanueleMinotto\HwiOauthBridge\Traits\Document;
+
+use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
+
+trait MailruTrait
+{
+    /**
+     * Mailru username.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruUsername;
+
+    /**
+     * Mailru nickname.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruNickname;
+
+    /**
+     * Mailru first name.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruFirstName;
+
+    /**
+     * Mailru last name.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruLastName;
+
+    /**
+     * Mailru real name.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruRealName;
+
+    /**
+     * Mailru profilePicture.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruEmail;
+
+    /**
+     * Mailru profile picture.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruProfilePicture;
+
+    /**
+     * Mailru access token.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruAccessToken;
+
+    /**
+     * Mailru refresh token.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruRefreshToken;
+
+    /**
+     * Mailru expires in.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruExpiresIn;
+
+    /**
+     * Mailru expires in.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $mailruExpiresIn;
+
+    /**
+     * Mailru data.
+     *
+     * @var array|null
+     *
+     * @ODM\Hash
+     */
+    private $mailruData;
+
+    /**
+     * Get Mailru access token.
+     *
+     * @return string|null
+     */
+    public function getMailruAccessToken()
+    {
+        return $this->mailruAccessToken;
+    }
+
+    /**
+     * Gets the Mailru data.
+     *
+     * @return array|null
+     */
+    public function getMailruData()
+    {
+        return $this->mailruData;
+    }
+
+    /**
+     * Get Mailru email.
+     *
+     * @return string|null
+     */
+    public function getMailruEmail()
+    {
+        return $this->mailruEmail;
+    }
+
+    /**
+     * Get Mailru expires in.
+     *
+     * @return string|null
+     */
+    public function getMailruExpiresIn()
+    {
+        return $this->mailruExpiresIn;
+    }
+
+    /**
+     * Get Mailru first name.
+     *
+     * @return string|null
+     */
+    public function getMailruFirstName()
+    {
+        return $this->mailruFirstName;
+    }
+
+    /**
+     * Get Mailru last name.
+     *
+     * @return string|null
+     */
+    public function getMailruLastName()
+    {
+        return $this->mailruLastName;
+    }
+
+    /**
+     * Get Mailru nickname.
+     *
+     * @return string|null
+     */
+    public function getMailruNickname()
+    {
+        return $this->mailruNickname;
+    }
+
+    /**
+     * Get Mailru profile picture.
+     *
+     * @return string|null
+     */
+    public function getMailruProfilePicture()
+    {
+        return $this->mailruProfilePicture;
+    }
+
+    /**
+     * Get Mailru real name.
+     *
+     * @return string|null
+     */
+    public function getMailruRealName()
+    {
+        return $this->mailruRealName;
+    }
+
+    /**
+     * Get Mailru refresh token.
+     *
+     * @return string|null
+     */
+    public function getMailruRefreshToken()
+    {
+        return $this->mailruRefreshToken;
+    }
+
+    /**
+     * Get Mailru username.
+     *
+     * @return string|null
+     */
+    public function getMailruUsername()
+    {
+        return $this->mailruUsername;
+    }
+
+    /**
+     * Set Mailru access token.
+     *
+     * @param string|null $accessToken
+     *
+     * @return self
+     */
+    public function setMailruAccessToken($accessToken)
+    {
+        $this->mailruAccessToken = $mailruAccessToken;
+
+        return $this;
+    }
+
+    /**
+     * Sets the Mailru data.
+     *
+     * @param array|null $mailruData the mailru data
+     *
+     * @return self
+     */
+    public function setMailruData(array $mailruData = null)
+    {
+        $this->mailruData = $mailruData;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru email.
+     *
+     * @param string|null $email
+     *
+     * @return self
+     */
+    public function setMailruEmail($email)
+    {
+        $this->mailruEmail = $mailruEmail;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru expires in.
+     *
+     * @param string|null $expiresIn
+     *
+     * @return self
+     */
+    public function setMailruExpiresIn($expiresIn)
+    {
+        $this->mailruExpiresIn = $mailruExpiresIn;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru first name.
+     *
+     * @param string|null $firstName
+     *
+     * @return self
+     */
+    public function setMailruFirstName($firstName)
+    {
+        $this->mailruFirstName = $mailruFirstName;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru last name.
+     *
+     * @param string|null $lastName
+     *
+     * @return self
+     */
+    public function setMailruLastName($lastName)
+    {
+        $this->mailruLastName = $mailruLastName;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru nickname.
+     *
+     * @param string|null $nickname
+     *
+     * @return self
+     */
+    public function setMailruNickname($nickname)
+    {
+        $this->mailruNickname = $mailruNickname;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru profile picture.
+     *
+     * @param string|null $profilePicture
+     *
+     * @return self
+     */
+    public function setMailruProfilePicture($profilePicture)
+    {
+        $this->mailruProfilePicture = $mailruProfilePicture;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru real name.
+     *
+     * @param string|null $realName
+     *
+     * @return self
+     */
+    public function setMailruRealName($realName)
+    {
+        $this->mailruRealName = $mailruRealName;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru refresh token.
+     *
+     * @param string|null $refreshToken
+     *
+     * @return self
+     */
+    public function setMailruRefreshToken($refreshToken)
+    {
+        $this->mailruRefreshToken = $mailruRefreshToken;
+
+        return $this;
+    }
+
+    /**
+     * Set Mailru username.
+     *
+     * @param string|null $username
+     *
+     * @return self
+     */
+    public function setMailruUsername($username)
+    {
+        $this->mailruUsername = $mailruUsername;
+
+        return $this;
+    }
+}

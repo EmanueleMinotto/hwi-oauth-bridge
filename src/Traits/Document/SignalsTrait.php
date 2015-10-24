@@ -1,0 +1,380 @@
+<?php
+
+namespace EmanueleMinotto\HwiOauthBridge\Traits\Document;
+
+use Doctrine\ODM\MongoDB\Mapping\Annotations as ODM;
+
+trait SignalsTrait
+{
+    /**
+     * Signals username.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsUsername;
+
+    /**
+     * Signals nickname.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsNickname;
+
+    /**
+     * Signals first name.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsFirstName;
+
+    /**
+     * Signals last name.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsLastName;
+
+    /**
+     * Signals real name.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsRealName;
+
+    /**
+     * Signals profilePicture.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsEmail;
+
+    /**
+     * Signals profile picture.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsProfilePicture;
+
+    /**
+     * Signals access token.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsAccessToken;
+
+    /**
+     * Signals refresh token.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsRefreshToken;
+
+    /**
+     * Signals expires in.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsExpiresIn;
+
+    /**
+     * Signals expires in.
+     *
+     * @var string|null
+     *
+     * @ODM\String
+     */
+    private $signalsExpiresIn;
+
+    /**
+     * Signals data.
+     *
+     * @var array|null
+     *
+     * @ODM\Hash
+     */
+    private $signalsData;
+
+    /**
+     * Get Signals access token.
+     *
+     * @return string|null
+     */
+    public function getSignalsAccessToken()
+    {
+        return $this->signalsAccessToken;
+    }
+
+    /**
+     * Gets the Signals data.
+     *
+     * @return array|null
+     */
+    public function getSignalsData()
+    {
+        return $this->signalsData;
+    }
+
+    /**
+     * Get Signals email.
+     *
+     * @return string|null
+     */
+    public function getSignalsEmail()
+    {
+        return $this->signalsEmail;
+    }
+
+    /**
+     * Get Signals expires in.
+     *
+     * @return string|null
+     */
+    public function getSignalsExpiresIn()
+    {
+        return $this->signalsExpiresIn;
+    }
+
+    /**
+     * Get Signals first name.
+     *
+     * @return string|null
+     */
+    public function getSignalsFirstName()
+    {
+        return $this->signalsFirstName;
+    }
+
+    /**
+     * Get Signals last name.
+     *
+     * @return string|null
+     */
+    public function getSignalsLastName()
+    {
+        return $this->signalsLastName;
+    }
+
+    /**
+     * Get Signals nickname.
+     *
+     * @return string|null
+     */
+    public function getSignalsNickname()
+    {
+        return $this->signalsNickname;
+    }
+
+    /**
+     * Get Signals profile picture.
+     *
+     * @return string|null
+     */
+    public function getSignalsProfilePicture()
+    {
+        return $this->signalsProfilePicture;
+    }
+
+    /**
+     * Get Signals real name.
+     *
+     * @return string|null
+     */
+    public function getSignalsRealName()
+    {
+        return $this->signalsRealName;
+    }
+
+    /**
+     * Get Signals refresh token.
+     *
+     * @return string|null
+     */
+    public function getSignalsRefreshToken()
+    {
+        return $this->signalsRefreshToken;
+    }
+
+    /**
+     * Get Signals username.
+     *
+     * @return string|null
+     */
+    public function getSignalsUsername()
+    {
+        return $this->signalsUsername;
+    }
+
+    /**
+     * Set Signals access token.
+     *
+     * @param string|null $accessToken
+     *
+     * @return self
+     */
+    public function setSignalsAccessToken($accessToken)
+    {
+        $this->signalsAccessToken = $signalsAccessToken;
+
+        return $this;
+    }
+
+    /**
+     * Sets the Signals data.
+     *
+     * @param array|null $signalsData the signals data
+     *
+     * @return self
+     */
+    public function setSignalsData(array $signalsData = null)
+    {
+        $this->signalsData = $signalsData;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals email.
+     *
+     * @param string|null $email
+     *
+     * @return self
+     */
+    public function setSignalsEmail($email)
+    {
+        $this->signalsEmail = $signalsEmail;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals expires in.
+     *
+     * @param string|null $expiresIn
+     *
+     * @return self
+     */
+    public function setSignalsExpiresIn($expiresIn)
+    {
+        $this->signalsExpiresIn = $signalsExpiresIn;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals first name.
+     *
+     * @param string|null $firstName
+     *
+     * @return self
+     */
+    public function setSignalsFirstName($firstName)
+    {
+        $this->signalsFirstName = $signalsFirstName;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals last name.
+     *
+     * @param string|null $lastName
+     *
+     * @return self
+     */
+    public function setSignalsLastName($lastName)
+    {
+        $this->signalsLastName = $signalsLastName;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals nickname.
+     *
+     * @param string|null $nickname
+     *
+     * @return self
+     */
+    public function setSignalsNickname($nickname)
+    {
+        $this->signalsNickname = $signalsNickname;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals profile picture.
+     *
+     * @param string|null $profilePicture
+     *
+     * @return self
+     */
+    public function setSignalsProfilePicture($profilePicture)
+    {
+        $this->signalsProfilePicture = $signalsProfilePicture;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals real name.
+     *
+     * @param string|null $realName
+     *
+     * @return self
+     */
+    public function setSignalsRealName($realName)
+    {
+        $this->signalsRealName = $signalsRealName;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals refresh token.
+     *
+     * @param string|null $refreshToken
+     *
+     * @return self
+     */
+    public function setSignalsRefreshToken($refreshToken)
+    {
+        $this->signalsRefreshToken = $signalsRefreshToken;
+
+        return $this;
+    }
+
+    /**
+     * Set Signals username.
+     *
+     * @param string|null $username
+     *
+     * @return self
+     */
+    public function setSignalsUsername($username)
+    {
+        $this->signalsUsername = $signalsUsername;
+
+        return $this;
+    }
+}
