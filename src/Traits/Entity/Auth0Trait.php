@@ -245,9 +245,9 @@ trait Auth0Trait
      *
      * @return self
      */
-    public function setAuth0Data(array $auth0Data = null)
+    public function setAuth0Data(array $data = null)
     {
-        $this->auth0Data = $auth0Data;
+        $this->auth0Data = $data;
 
         return $this;
     }
