@@ -233,7 +233,7 @@ trait FlickrTrait
      */
     public function setFlickrAccessToken($accessToken)
     {
-        $this->flickrAccessToken = $flickrAccessToken;
+        $this->flickrAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait FlickrTrait
      *
      * @return self
      */
-    public function setFlickrData(array $flickrData = null)
+    public function setFlickrData(array $data = null)
     {
-        $this->flickrData = $flickrData;
+        $this->flickrData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait FlickrTrait
      */
     public function setFlickrEmail($email)
     {
-        $this->flickrEmail = $flickrEmail;
+        $this->flickrEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait FlickrTrait
      */
     public function setFlickrExpiresIn($expiresIn)
     {
-        $this->flickrExpiresIn = $flickrExpiresIn;
+        $this->flickrExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait FlickrTrait
      */
     public function setFlickrFirstName($firstName)
     {
-        $this->flickrFirstName = $flickrFirstName;
+        $this->flickrFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait FlickrTrait
      */
     public function setFlickrLastName($lastName)
     {
-        $this->flickrLastName = $flickrLastName;
+        $this->flickrLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait FlickrTrait
      */
     public function setFlickrNickname($nickname)
     {
-        $this->flickrNickname = $flickrNickname;
+        $this->flickrNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait FlickrTrait
      */
     public function setFlickrProfilePicture($profilePicture)
     {
-        $this->flickrProfilePicture = $flickrProfilePicture;
+        $this->flickrProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait FlickrTrait
      */
     public function setFlickrRealName($realName)
     {
-        $this->flickrRealName = $flickrRealName;
+        $this->flickrRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait FlickrTrait
      */
     public function setFlickrRefreshToken($refreshToken)
     {
-        $this->flickrRefreshToken = $flickrRefreshToken;
+        $this->flickrRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait FlickrTrait
      */
     public function setFlickrUsername($username)
     {
-        $this->flickrUsername = $flickrUsername;
+        $this->flickrUsername = $username;
 
         return $this;
     }

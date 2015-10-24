@@ -233,7 +233,7 @@ trait LinkedinTrait
      */
     public function setLinkedinAccessToken($accessToken)
     {
-        $this->linkedinAccessToken = $linkedinAccessToken;
+        $this->linkedinAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait LinkedinTrait
      *
      * @return self
      */
-    public function setLinkedinData(array $linkedinData = null)
+    public function setLinkedinData(array $data = null)
     {
-        $this->linkedinData = $linkedinData;
+        $this->linkedinData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait LinkedinTrait
      */
     public function setLinkedinEmail($email)
     {
-        $this->linkedinEmail = $linkedinEmail;
+        $this->linkedinEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait LinkedinTrait
      */
     public function setLinkedinExpiresIn($expiresIn)
     {
-        $this->linkedinExpiresIn = $linkedinExpiresIn;
+        $this->linkedinExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait LinkedinTrait
      */
     public function setLinkedinFirstName($firstName)
     {
-        $this->linkedinFirstName = $linkedinFirstName;
+        $this->linkedinFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait LinkedinTrait
      */
     public function setLinkedinLastName($lastName)
     {
-        $this->linkedinLastName = $linkedinLastName;
+        $this->linkedinLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait LinkedinTrait
      */
     public function setLinkedinNickname($nickname)
     {
-        $this->linkedinNickname = $linkedinNickname;
+        $this->linkedinNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait LinkedinTrait
      */
     public function setLinkedinProfilePicture($profilePicture)
     {
-        $this->linkedinProfilePicture = $linkedinProfilePicture;
+        $this->linkedinProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait LinkedinTrait
      */
     public function setLinkedinRealName($realName)
     {
-        $this->linkedinRealName = $linkedinRealName;
+        $this->linkedinRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait LinkedinTrait
      */
     public function setLinkedinRefreshToken($refreshToken)
     {
-        $this->linkedinRefreshToken = $linkedinRefreshToken;
+        $this->linkedinRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait LinkedinTrait
      */
     public function setLinkedinUsername($username)
     {
-        $this->linkedinUsername = $linkedinUsername;
+        $this->linkedinUsername = $username;
 
         return $this;
     }

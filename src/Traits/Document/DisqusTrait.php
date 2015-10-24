@@ -233,7 +233,7 @@ trait DisqusTrait
      */
     public function setDisqusAccessToken($accessToken)
     {
-        $this->disqusAccessToken = $disqusAccessToken;
+        $this->disqusAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait DisqusTrait
      *
      * @return self
      */
-    public function setDisqusData(array $disqusData = null)
+    public function setDisqusData(array $data = null)
     {
-        $this->disqusData = $disqusData;
+        $this->disqusData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait DisqusTrait
      */
     public function setDisqusEmail($email)
     {
-        $this->disqusEmail = $disqusEmail;
+        $this->disqusEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait DisqusTrait
      */
     public function setDisqusExpiresIn($expiresIn)
     {
-        $this->disqusExpiresIn = $disqusExpiresIn;
+        $this->disqusExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait DisqusTrait
      */
     public function setDisqusFirstName($firstName)
     {
-        $this->disqusFirstName = $disqusFirstName;
+        $this->disqusFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait DisqusTrait
      */
     public function setDisqusLastName($lastName)
     {
-        $this->disqusLastName = $disqusLastName;
+        $this->disqusLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait DisqusTrait
      */
     public function setDisqusNickname($nickname)
     {
-        $this->disqusNickname = $disqusNickname;
+        $this->disqusNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait DisqusTrait
      */
     public function setDisqusProfilePicture($profilePicture)
     {
-        $this->disqusProfilePicture = $disqusProfilePicture;
+        $this->disqusProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait DisqusTrait
      */
     public function setDisqusRealName($realName)
     {
-        $this->disqusRealName = $disqusRealName;
+        $this->disqusRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait DisqusTrait
      */
     public function setDisqusRefreshToken($refreshToken)
     {
-        $this->disqusRefreshToken = $disqusRefreshToken;
+        $this->disqusRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait DisqusTrait
      */
     public function setDisqusUsername($username)
     {
-        $this->disqusUsername = $disqusUsername;
+        $this->disqusUsername = $username;
 
         return $this;
     }

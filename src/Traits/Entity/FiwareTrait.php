@@ -233,7 +233,7 @@ trait FiwareTrait
      */
     public function setFiwareAccessToken($accessToken)
     {
-        $this->fiwareAccessToken = $fiwareAccessToken;
+        $this->fiwareAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait FiwareTrait
      *
      * @return self
      */
-    public function setFiwareData(array $fiwareData = null)
+    public function setFiwareData(array $data = null)
     {
-        $this->fiwareData = $fiwareData;
+        $this->fiwareData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait FiwareTrait
      */
     public function setFiwareEmail($email)
     {
-        $this->fiwareEmail = $fiwareEmail;
+        $this->fiwareEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait FiwareTrait
      */
     public function setFiwareExpiresIn($expiresIn)
     {
-        $this->fiwareExpiresIn = $fiwareExpiresIn;
+        $this->fiwareExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait FiwareTrait
      */
     public function setFiwareFirstName($firstName)
     {
-        $this->fiwareFirstName = $fiwareFirstName;
+        $this->fiwareFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait FiwareTrait
      */
     public function setFiwareLastName($lastName)
     {
-        $this->fiwareLastName = $fiwareLastName;
+        $this->fiwareLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait FiwareTrait
      */
     public function setFiwareNickname($nickname)
     {
-        $this->fiwareNickname = $fiwareNickname;
+        $this->fiwareNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait FiwareTrait
      */
     public function setFiwareProfilePicture($profilePicture)
     {
-        $this->fiwareProfilePicture = $fiwareProfilePicture;
+        $this->fiwareProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait FiwareTrait
      */
     public function setFiwareRealName($realName)
     {
-        $this->fiwareRealName = $fiwareRealName;
+        $this->fiwareRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait FiwareTrait
      */
     public function setFiwareRefreshToken($refreshToken)
     {
-        $this->fiwareRefreshToken = $fiwareRefreshToken;
+        $this->fiwareRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait FiwareTrait
      */
     public function setFiwareUsername($username)
     {
-        $this->fiwareUsername = $fiwareUsername;
+        $this->fiwareUsername = $username;
 
         return $this;
     }

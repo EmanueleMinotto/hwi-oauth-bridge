@@ -233,7 +233,7 @@ trait GoogleTrait
      */
     public function setGoogleAccessToken($accessToken)
     {
-        $this->googleAccessToken = $googleAccessToken;
+        $this->googleAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait GoogleTrait
      *
      * @return self
      */
-    public function setGoogleData(array $googleData = null)
+    public function setGoogleData(array $data = null)
     {
-        $this->googleData = $googleData;
+        $this->googleData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait GoogleTrait
      */
     public function setGoogleEmail($email)
     {
-        $this->googleEmail = $googleEmail;
+        $this->googleEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait GoogleTrait
      */
     public function setGoogleExpiresIn($expiresIn)
     {
-        $this->googleExpiresIn = $googleExpiresIn;
+        $this->googleExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait GoogleTrait
      */
     public function setGoogleFirstName($firstName)
     {
-        $this->googleFirstName = $googleFirstName;
+        $this->googleFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait GoogleTrait
      */
     public function setGoogleLastName($lastName)
     {
-        $this->googleLastName = $googleLastName;
+        $this->googleLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait GoogleTrait
      */
     public function setGoogleNickname($nickname)
     {
-        $this->googleNickname = $googleNickname;
+        $this->googleNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait GoogleTrait
      */
     public function setGoogleProfilePicture($profilePicture)
     {
-        $this->googleProfilePicture = $googleProfilePicture;
+        $this->googleProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait GoogleTrait
      */
     public function setGoogleRealName($realName)
     {
-        $this->googleRealName = $googleRealName;
+        $this->googleRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait GoogleTrait
      */
     public function setGoogleRefreshToken($refreshToken)
     {
-        $this->googleRefreshToken = $googleRefreshToken;
+        $this->googleRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait GoogleTrait
      */
     public function setGoogleUsername($username)
     {
-        $this->googleUsername = $googleUsername;
+        $this->googleUsername = $username;
 
         return $this;
     }

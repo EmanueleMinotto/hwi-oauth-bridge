@@ -233,7 +233,7 @@ trait MailruTrait
      */
     public function setMailruAccessToken($accessToken)
     {
-        $this->mailruAccessToken = $mailruAccessToken;
+        $this->mailruAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait MailruTrait
      *
      * @return self
      */
-    public function setMailruData(array $mailruData = null)
+    public function setMailruData(array $data = null)
     {
-        $this->mailruData = $mailruData;
+        $this->mailruData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait MailruTrait
      */
     public function setMailruEmail($email)
     {
-        $this->mailruEmail = $mailruEmail;
+        $this->mailruEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait MailruTrait
      */
     public function setMailruExpiresIn($expiresIn)
     {
-        $this->mailruExpiresIn = $mailruExpiresIn;
+        $this->mailruExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait MailruTrait
      */
     public function setMailruFirstName($firstName)
     {
-        $this->mailruFirstName = $mailruFirstName;
+        $this->mailruFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait MailruTrait
      */
     public function setMailruLastName($lastName)
     {
-        $this->mailruLastName = $mailruLastName;
+        $this->mailruLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait MailruTrait
      */
     public function setMailruNickname($nickname)
     {
-        $this->mailruNickname = $mailruNickname;
+        $this->mailruNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait MailruTrait
      */
     public function setMailruProfilePicture($profilePicture)
     {
-        $this->mailruProfilePicture = $mailruProfilePicture;
+        $this->mailruProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait MailruTrait
      */
     public function setMailruRealName($realName)
     {
-        $this->mailruRealName = $mailruRealName;
+        $this->mailruRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait MailruTrait
      */
     public function setMailruRefreshToken($refreshToken)
     {
-        $this->mailruRefreshToken = $mailruRefreshToken;
+        $this->mailruRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait MailruTrait
      */
     public function setMailruUsername($username)
     {
-        $this->mailruUsername = $mailruUsername;
+        $this->mailruUsername = $username;
 
         return $this;
     }

@@ -233,7 +233,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudAccessToken($accessToken)
     {
-        $this->soundcloudAccessToken = $soundcloudAccessToken;
+        $this->soundcloudAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait SoundcloudTrait
      *
      * @return self
      */
-    public function setSoundcloudData(array $soundcloudData = null)
+    public function setSoundcloudData(array $data = null)
     {
-        $this->soundcloudData = $soundcloudData;
+        $this->soundcloudData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudEmail($email)
     {
-        $this->soundcloudEmail = $soundcloudEmail;
+        $this->soundcloudEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudExpiresIn($expiresIn)
     {
-        $this->soundcloudExpiresIn = $soundcloudExpiresIn;
+        $this->soundcloudExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudFirstName($firstName)
     {
-        $this->soundcloudFirstName = $soundcloudFirstName;
+        $this->soundcloudFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudLastName($lastName)
     {
-        $this->soundcloudLastName = $soundcloudLastName;
+        $this->soundcloudLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudNickname($nickname)
     {
-        $this->soundcloudNickname = $soundcloudNickname;
+        $this->soundcloudNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudProfilePicture($profilePicture)
     {
-        $this->soundcloudProfilePicture = $soundcloudProfilePicture;
+        $this->soundcloudProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudRealName($realName)
     {
-        $this->soundcloudRealName = $soundcloudRealName;
+        $this->soundcloudRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudRefreshToken($refreshToken)
     {
-        $this->soundcloudRefreshToken = $soundcloudRefreshToken;
+        $this->soundcloudRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait SoundcloudTrait
      */
     public function setSoundcloudUsername($username)
     {
-        $this->soundcloudUsername = $soundcloudUsername;
+        $this->soundcloudUsername = $username;
 
         return $this;
     }

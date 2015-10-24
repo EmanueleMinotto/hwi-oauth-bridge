@@ -233,7 +233,7 @@ trait DropboxTrait
      */
     public function setDropboxAccessToken($accessToken)
     {
-        $this->dropboxAccessToken = $dropboxAccessToken;
+        $this->dropboxAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait DropboxTrait
      *
      * @return self
      */
-    public function setDropboxData(array $dropboxData = null)
+    public function setDropboxData(array $data = null)
     {
-        $this->dropboxData = $dropboxData;
+        $this->dropboxData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait DropboxTrait
      */
     public function setDropboxEmail($email)
     {
-        $this->dropboxEmail = $dropboxEmail;
+        $this->dropboxEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait DropboxTrait
      */
     public function setDropboxExpiresIn($expiresIn)
     {
-        $this->dropboxExpiresIn = $dropboxExpiresIn;
+        $this->dropboxExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait DropboxTrait
      */
     public function setDropboxFirstName($firstName)
     {
-        $this->dropboxFirstName = $dropboxFirstName;
+        $this->dropboxFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait DropboxTrait
      */
     public function setDropboxLastName($lastName)
     {
-        $this->dropboxLastName = $dropboxLastName;
+        $this->dropboxLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait DropboxTrait
      */
     public function setDropboxNickname($nickname)
     {
-        $this->dropboxNickname = $dropboxNickname;
+        $this->dropboxNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait DropboxTrait
      */
     public function setDropboxProfilePicture($profilePicture)
     {
-        $this->dropboxProfilePicture = $dropboxProfilePicture;
+        $this->dropboxProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait DropboxTrait
      */
     public function setDropboxRealName($realName)
     {
-        $this->dropboxRealName = $dropboxRealName;
+        $this->dropboxRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait DropboxTrait
      */
     public function setDropboxRefreshToken($refreshToken)
     {
-        $this->dropboxRefreshToken = $dropboxRefreshToken;
+        $this->dropboxRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait DropboxTrait
      */
     public function setDropboxUsername($username)
     {
-        $this->dropboxUsername = $dropboxUsername;
+        $this->dropboxUsername = $username;
 
         return $this;
     }

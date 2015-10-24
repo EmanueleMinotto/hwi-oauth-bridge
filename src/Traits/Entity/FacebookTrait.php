@@ -233,7 +233,7 @@ trait FacebookTrait
      */
     public function setFacebookAccessToken($accessToken)
     {
-        $this->facebookAccessToken = $facebookAccessToken;
+        $this->facebookAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait FacebookTrait
      *
      * @return self
      */
-    public function setFacebookData(array $facebookData = null)
+    public function setFacebookData(array $data = null)
     {
-        $this->facebookData = $facebookData;
+        $this->facebookData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait FacebookTrait
      */
     public function setFacebookEmail($email)
     {
-        $this->facebookEmail = $facebookEmail;
+        $this->facebookEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait FacebookTrait
      */
     public function setFacebookExpiresIn($expiresIn)
     {
-        $this->facebookExpiresIn = $facebookExpiresIn;
+        $this->facebookExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait FacebookTrait
      */
     public function setFacebookFirstName($firstName)
     {
-        $this->facebookFirstName = $facebookFirstName;
+        $this->facebookFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait FacebookTrait
      */
     public function setFacebookLastName($lastName)
     {
-        $this->facebookLastName = $facebookLastName;
+        $this->facebookLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait FacebookTrait
      */
     public function setFacebookNickname($nickname)
     {
-        $this->facebookNickname = $facebookNickname;
+        $this->facebookNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait FacebookTrait
      */
     public function setFacebookProfilePicture($profilePicture)
     {
-        $this->facebookProfilePicture = $facebookProfilePicture;
+        $this->facebookProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait FacebookTrait
      */
     public function setFacebookRealName($realName)
     {
-        $this->facebookRealName = $facebookRealName;
+        $this->facebookRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait FacebookTrait
      */
     public function setFacebookRefreshToken($refreshToken)
     {
-        $this->facebookRefreshToken = $facebookRefreshToken;
+        $this->facebookRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait FacebookTrait
      */
     public function setFacebookUsername($username)
     {
-        $this->facebookUsername = $facebookUsername;
+        $this->facebookUsername = $username;
 
         return $this;
     }

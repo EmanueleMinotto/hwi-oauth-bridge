@@ -233,7 +233,7 @@ trait JiraTrait
      */
     public function setJiraAccessToken($accessToken)
     {
-        $this->jiraAccessToken = $jiraAccessToken;
+        $this->jiraAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait JiraTrait
      *
      * @return self
      */
-    public function setJiraData(array $jiraData = null)
+    public function setJiraData(array $data = null)
     {
-        $this->jiraData = $jiraData;
+        $this->jiraData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait JiraTrait
      */
     public function setJiraEmail($email)
     {
-        $this->jiraEmail = $jiraEmail;
+        $this->jiraEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait JiraTrait
      */
     public function setJiraExpiresIn($expiresIn)
     {
-        $this->jiraExpiresIn = $jiraExpiresIn;
+        $this->jiraExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait JiraTrait
      */
     public function setJiraFirstName($firstName)
     {
-        $this->jiraFirstName = $jiraFirstName;
+        $this->jiraFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait JiraTrait
      */
     public function setJiraLastName($lastName)
     {
-        $this->jiraLastName = $jiraLastName;
+        $this->jiraLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait JiraTrait
      */
     public function setJiraNickname($nickname)
     {
-        $this->jiraNickname = $jiraNickname;
+        $this->jiraNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait JiraTrait
      */
     public function setJiraProfilePicture($profilePicture)
     {
-        $this->jiraProfilePicture = $jiraProfilePicture;
+        $this->jiraProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait JiraTrait
      */
     public function setJiraRealName($realName)
     {
-        $this->jiraRealName = $jiraRealName;
+        $this->jiraRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait JiraTrait
      */
     public function setJiraRefreshToken($refreshToken)
     {
-        $this->jiraRefreshToken = $jiraRefreshToken;
+        $this->jiraRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait JiraTrait
      */
     public function setJiraUsername($username)
     {
-        $this->jiraUsername = $jiraUsername;
+        $this->jiraUsername = $username;
 
         return $this;
     }

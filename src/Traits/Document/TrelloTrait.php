@@ -233,7 +233,7 @@ trait TrelloTrait
      */
     public function setTrelloAccessToken($accessToken)
     {
-        $this->trelloAccessToken = $trelloAccessToken;
+        $this->trelloAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait TrelloTrait
      *
      * @return self
      */
-    public function setTrelloData(array $trelloData = null)
+    public function setTrelloData(array $data = null)
     {
-        $this->trelloData = $trelloData;
+        $this->trelloData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait TrelloTrait
      */
     public function setTrelloEmail($email)
     {
-        $this->trelloEmail = $trelloEmail;
+        $this->trelloEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait TrelloTrait
      */
     public function setTrelloExpiresIn($expiresIn)
     {
-        $this->trelloExpiresIn = $trelloExpiresIn;
+        $this->trelloExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait TrelloTrait
      */
     public function setTrelloFirstName($firstName)
     {
-        $this->trelloFirstName = $trelloFirstName;
+        $this->trelloFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait TrelloTrait
      */
     public function setTrelloLastName($lastName)
     {
-        $this->trelloLastName = $trelloLastName;
+        $this->trelloLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait TrelloTrait
      */
     public function setTrelloNickname($nickname)
     {
-        $this->trelloNickname = $trelloNickname;
+        $this->trelloNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait TrelloTrait
      */
     public function setTrelloProfilePicture($profilePicture)
     {
-        $this->trelloProfilePicture = $trelloProfilePicture;
+        $this->trelloProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait TrelloTrait
      */
     public function setTrelloRealName($realName)
     {
-        $this->trelloRealName = $trelloRealName;
+        $this->trelloRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait TrelloTrait
      */
     public function setTrelloRefreshToken($refreshToken)
     {
-        $this->trelloRefreshToken = $trelloRefreshToken;
+        $this->trelloRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait TrelloTrait
      */
     public function setTrelloUsername($username)
     {
-        $this->trelloUsername = $trelloUsername;
+        $this->trelloUsername = $username;
 
         return $this;
     }

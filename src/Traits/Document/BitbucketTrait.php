@@ -233,7 +233,7 @@ trait BitbucketTrait
      */
     public function setBitbucketAccessToken($accessToken)
     {
-        $this->bitbucketAccessToken = $bitbucketAccessToken;
+        $this->bitbucketAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait BitbucketTrait
      *
      * @return self
      */
-    public function setBitbucketData(array $bitbucketData = null)
+    public function setBitbucketData(array $data = null)
     {
-        $this->bitbucketData = $bitbucketData;
+        $this->bitbucketData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait BitbucketTrait
      */
     public function setBitbucketEmail($email)
     {
-        $this->bitbucketEmail = $bitbucketEmail;
+        $this->bitbucketEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait BitbucketTrait
      */
     public function setBitbucketExpiresIn($expiresIn)
     {
-        $this->bitbucketExpiresIn = $bitbucketExpiresIn;
+        $this->bitbucketExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait BitbucketTrait
      */
     public function setBitbucketFirstName($firstName)
     {
-        $this->bitbucketFirstName = $bitbucketFirstName;
+        $this->bitbucketFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait BitbucketTrait
      */
     public function setBitbucketLastName($lastName)
     {
-        $this->bitbucketLastName = $bitbucketLastName;
+        $this->bitbucketLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait BitbucketTrait
      */
     public function setBitbucketNickname($nickname)
     {
-        $this->bitbucketNickname = $bitbucketNickname;
+        $this->bitbucketNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait BitbucketTrait
      */
     public function setBitbucketProfilePicture($profilePicture)
     {
-        $this->bitbucketProfilePicture = $bitbucketProfilePicture;
+        $this->bitbucketProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait BitbucketTrait
      */
     public function setBitbucketRealName($realName)
     {
-        $this->bitbucketRealName = $bitbucketRealName;
+        $this->bitbucketRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait BitbucketTrait
      */
     public function setBitbucketRefreshToken($refreshToken)
     {
-        $this->bitbucketRefreshToken = $bitbucketRefreshToken;
+        $this->bitbucketRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait BitbucketTrait
      */
     public function setBitbucketUsername($username)
     {
-        $this->bitbucketUsername = $bitbucketUsername;
+        $this->bitbucketUsername = $username;
 
         return $this;
     }

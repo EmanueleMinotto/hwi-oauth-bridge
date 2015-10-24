@@ -233,7 +233,7 @@ trait TwitchTrait
      */
     public function setTwitchAccessToken($accessToken)
     {
-        $this->twitchAccessToken = $twitchAccessToken;
+        $this->twitchAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait TwitchTrait
      *
      * @return self
      */
-    public function setTwitchData(array $twitchData = null)
+    public function setTwitchData(array $data = null)
     {
-        $this->twitchData = $twitchData;
+        $this->twitchData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait TwitchTrait
      */
     public function setTwitchEmail($email)
     {
-        $this->twitchEmail = $twitchEmail;
+        $this->twitchEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait TwitchTrait
      */
     public function setTwitchExpiresIn($expiresIn)
     {
-        $this->twitchExpiresIn = $twitchExpiresIn;
+        $this->twitchExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait TwitchTrait
      */
     public function setTwitchFirstName($firstName)
     {
-        $this->twitchFirstName = $twitchFirstName;
+        $this->twitchFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait TwitchTrait
      */
     public function setTwitchLastName($lastName)
     {
-        $this->twitchLastName = $twitchLastName;
+        $this->twitchLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait TwitchTrait
      */
     public function setTwitchNickname($nickname)
     {
-        $this->twitchNickname = $twitchNickname;
+        $this->twitchNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait TwitchTrait
      */
     public function setTwitchProfilePicture($profilePicture)
     {
-        $this->twitchProfilePicture = $twitchProfilePicture;
+        $this->twitchProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait TwitchTrait
      */
     public function setTwitchRealName($realName)
     {
-        $this->twitchRealName = $twitchRealName;
+        $this->twitchRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait TwitchTrait
      */
     public function setTwitchRefreshToken($refreshToken)
     {
-        $this->twitchRefreshToken = $twitchRefreshToken;
+        $this->twitchRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait TwitchTrait
      */
     public function setTwitchUsername($username)
     {
-        $this->twitchUsername = $twitchUsername;
+        $this->twitchUsername = $username;
 
         return $this;
     }

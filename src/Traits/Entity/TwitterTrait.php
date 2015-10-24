@@ -233,7 +233,7 @@ trait TwitterTrait
      */
     public function setTwitterAccessToken($accessToken)
     {
-        $this->twitterAccessToken = $twitterAccessToken;
+        $this->twitterAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait TwitterTrait
      *
      * @return self
      */
-    public function setTwitterData(array $twitterData = null)
+    public function setTwitterData(array $data = null)
     {
-        $this->twitterData = $twitterData;
+        $this->twitterData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait TwitterTrait
      */
     public function setTwitterEmail($email)
     {
-        $this->twitterEmail = $twitterEmail;
+        $this->twitterEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait TwitterTrait
      */
     public function setTwitterExpiresIn($expiresIn)
     {
-        $this->twitterExpiresIn = $twitterExpiresIn;
+        $this->twitterExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait TwitterTrait
      */
     public function setTwitterFirstName($firstName)
     {
-        $this->twitterFirstName = $twitterFirstName;
+        $this->twitterFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait TwitterTrait
      */
     public function setTwitterLastName($lastName)
     {
-        $this->twitterLastName = $twitterLastName;
+        $this->twitterLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait TwitterTrait
      */
     public function setTwitterNickname($nickname)
     {
-        $this->twitterNickname = $twitterNickname;
+        $this->twitterNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait TwitterTrait
      */
     public function setTwitterProfilePicture($profilePicture)
     {
-        $this->twitterProfilePicture = $twitterProfilePicture;
+        $this->twitterProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait TwitterTrait
      */
     public function setTwitterRealName($realName)
     {
-        $this->twitterRealName = $twitterRealName;
+        $this->twitterRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait TwitterTrait
      */
     public function setTwitterRefreshToken($refreshToken)
     {
-        $this->twitterRefreshToken = $twitterRefreshToken;
+        $this->twitterRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait TwitterTrait
      */
     public function setTwitterUsername($username)
     {
-        $this->twitterUsername = $twitterUsername;
+        $this->twitterUsername = $username;
 
         return $this;
     }

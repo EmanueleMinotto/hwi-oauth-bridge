@@ -233,7 +233,7 @@ trait InstagramTrait
      */
     public function setInstagramAccessToken($accessToken)
     {
-        $this->instagramAccessToken = $instagramAccessToken;
+        $this->instagramAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait InstagramTrait
      *
      * @return self
      */
-    public function setInstagramData(array $instagramData = null)
+    public function setInstagramData(array $data = null)
     {
-        $this->instagramData = $instagramData;
+        $this->instagramData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait InstagramTrait
      */
     public function setInstagramEmail($email)
     {
-        $this->instagramEmail = $instagramEmail;
+        $this->instagramEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait InstagramTrait
      */
     public function setInstagramExpiresIn($expiresIn)
     {
-        $this->instagramExpiresIn = $instagramExpiresIn;
+        $this->instagramExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait InstagramTrait
      */
     public function setInstagramFirstName($firstName)
     {
-        $this->instagramFirstName = $instagramFirstName;
+        $this->instagramFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait InstagramTrait
      */
     public function setInstagramLastName($lastName)
     {
-        $this->instagramLastName = $instagramLastName;
+        $this->instagramLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait InstagramTrait
      */
     public function setInstagramNickname($nickname)
     {
-        $this->instagramNickname = $instagramNickname;
+        $this->instagramNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait InstagramTrait
      */
     public function setInstagramProfilePicture($profilePicture)
     {
-        $this->instagramProfilePicture = $instagramProfilePicture;
+        $this->instagramProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait InstagramTrait
      */
     public function setInstagramRealName($realName)
     {
-        $this->instagramRealName = $instagramRealName;
+        $this->instagramRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait InstagramTrait
      */
     public function setInstagramRefreshToken($refreshToken)
     {
-        $this->instagramRefreshToken = $instagramRefreshToken;
+        $this->instagramRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait InstagramTrait
      */
     public function setInstagramUsername($username)
     {
-        $this->instagramUsername = $instagramUsername;
+        $this->instagramUsername = $username;
 
         return $this;
     }

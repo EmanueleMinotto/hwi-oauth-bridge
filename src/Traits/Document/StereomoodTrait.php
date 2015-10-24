@@ -233,7 +233,7 @@ trait StereomoodTrait
      */
     public function setStereomoodAccessToken($accessToken)
     {
-        $this->stereomoodAccessToken = $stereomoodAccessToken;
+        $this->stereomoodAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait StereomoodTrait
      *
      * @return self
      */
-    public function setStereomoodData(array $stereomoodData = null)
+    public function setStereomoodData(array $data = null)
     {
-        $this->stereomoodData = $stereomoodData;
+        $this->stereomoodData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait StereomoodTrait
      */
     public function setStereomoodEmail($email)
     {
-        $this->stereomoodEmail = $stereomoodEmail;
+        $this->stereomoodEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait StereomoodTrait
      */
     public function setStereomoodExpiresIn($expiresIn)
     {
-        $this->stereomoodExpiresIn = $stereomoodExpiresIn;
+        $this->stereomoodExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait StereomoodTrait
      */
     public function setStereomoodFirstName($firstName)
     {
-        $this->stereomoodFirstName = $stereomoodFirstName;
+        $this->stereomoodFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait StereomoodTrait
      */
     public function setStereomoodLastName($lastName)
     {
-        $this->stereomoodLastName = $stereomoodLastName;
+        $this->stereomoodLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait StereomoodTrait
      */
     public function setStereomoodNickname($nickname)
     {
-        $this->stereomoodNickname = $stereomoodNickname;
+        $this->stereomoodNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait StereomoodTrait
      */
     public function setStereomoodProfilePicture($profilePicture)
     {
-        $this->stereomoodProfilePicture = $stereomoodProfilePicture;
+        $this->stereomoodProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait StereomoodTrait
      */
     public function setStereomoodRealName($realName)
     {
-        $this->stereomoodRealName = $stereomoodRealName;
+        $this->stereomoodRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait StereomoodTrait
      */
     public function setStereomoodRefreshToken($refreshToken)
     {
-        $this->stereomoodRefreshToken = $stereomoodRefreshToken;
+        $this->stereomoodRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait StereomoodTrait
      */
     public function setStereomoodUsername($username)
     {
-        $this->stereomoodUsername = $stereomoodUsername;
+        $this->stereomoodUsername = $username;
 
         return $this;
     }

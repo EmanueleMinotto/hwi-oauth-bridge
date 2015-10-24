@@ -233,7 +233,7 @@ trait SpotifyTrait
      */
     public function setSpotifyAccessToken($accessToken)
     {
-        $this->spotifyAccessToken = $spotifyAccessToken;
+        $this->spotifyAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait SpotifyTrait
      *
      * @return self
      */
-    public function setSpotifyData(array $spotifyData = null)
+    public function setSpotifyData(array $data = null)
     {
-        $this->spotifyData = $spotifyData;
+        $this->spotifyData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait SpotifyTrait
      */
     public function setSpotifyEmail($email)
     {
-        $this->spotifyEmail = $spotifyEmail;
+        $this->spotifyEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait SpotifyTrait
      */
     public function setSpotifyExpiresIn($expiresIn)
     {
-        $this->spotifyExpiresIn = $spotifyExpiresIn;
+        $this->spotifyExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait SpotifyTrait
      */
     public function setSpotifyFirstName($firstName)
     {
-        $this->spotifyFirstName = $spotifyFirstName;
+        $this->spotifyFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait SpotifyTrait
      */
     public function setSpotifyLastName($lastName)
     {
-        $this->spotifyLastName = $spotifyLastName;
+        $this->spotifyLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait SpotifyTrait
      */
     public function setSpotifyNickname($nickname)
     {
-        $this->spotifyNickname = $spotifyNickname;
+        $this->spotifyNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait SpotifyTrait
      */
     public function setSpotifyProfilePicture($profilePicture)
     {
-        $this->spotifyProfilePicture = $spotifyProfilePicture;
+        $this->spotifyProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait SpotifyTrait
      */
     public function setSpotifyRealName($realName)
     {
-        $this->spotifyRealName = $spotifyRealName;
+        $this->spotifyRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait SpotifyTrait
      */
     public function setSpotifyRefreshToken($refreshToken)
     {
-        $this->spotifyRefreshToken = $spotifyRefreshToken;
+        $this->spotifyRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait SpotifyTrait
      */
     public function setSpotifyUsername($username)
     {
-        $this->spotifyUsername = $spotifyUsername;
+        $this->spotifyUsername = $username;
 
         return $this;
     }

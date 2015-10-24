@@ -233,7 +233,7 @@ trait RedditTrait
      */
     public function setRedditAccessToken($accessToken)
     {
-        $this->redditAccessToken = $redditAccessToken;
+        $this->redditAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait RedditTrait
      *
      * @return self
      */
-    public function setRedditData(array $redditData = null)
+    public function setRedditData(array $data = null)
     {
-        $this->redditData = $redditData;
+        $this->redditData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait RedditTrait
      */
     public function setRedditEmail($email)
     {
-        $this->redditEmail = $redditEmail;
+        $this->redditEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait RedditTrait
      */
     public function setRedditExpiresIn($expiresIn)
     {
-        $this->redditExpiresIn = $redditExpiresIn;
+        $this->redditExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait RedditTrait
      */
     public function setRedditFirstName($firstName)
     {
-        $this->redditFirstName = $redditFirstName;
+        $this->redditFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait RedditTrait
      */
     public function setRedditLastName($lastName)
     {
-        $this->redditLastName = $redditLastName;
+        $this->redditLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait RedditTrait
      */
     public function setRedditNickname($nickname)
     {
-        $this->redditNickname = $redditNickname;
+        $this->redditNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait RedditTrait
      */
     public function setRedditProfilePicture($profilePicture)
     {
-        $this->redditProfilePicture = $redditProfilePicture;
+        $this->redditProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait RedditTrait
      */
     public function setRedditRealName($realName)
     {
-        $this->redditRealName = $redditRealName;
+        $this->redditRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait RedditTrait
      */
     public function setRedditRefreshToken($refreshToken)
     {
-        $this->redditRefreshToken = $redditRefreshToken;
+        $this->redditRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait RedditTrait
      */
     public function setRedditUsername($username)
     {
-        $this->redditUsername = $redditUsername;
+        $this->redditUsername = $username;
 
         return $this;
     }

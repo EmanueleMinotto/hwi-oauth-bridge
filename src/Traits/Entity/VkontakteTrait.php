@@ -233,7 +233,7 @@ trait VkontakteTrait
      */
     public function setVkontakteAccessToken($accessToken)
     {
-        $this->vkontakteAccessToken = $vkontakteAccessToken;
+        $this->vkontakteAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait VkontakteTrait
      *
      * @return self
      */
-    public function setVkontakteData(array $vkontakteData = null)
+    public function setVkontakteData(array $data = null)
     {
-        $this->vkontakteData = $vkontakteData;
+        $this->vkontakteData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait VkontakteTrait
      */
     public function setVkontakteEmail($email)
     {
-        $this->vkontakteEmail = $vkontakteEmail;
+        $this->vkontakteEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait VkontakteTrait
      */
     public function setVkontakteExpiresIn($expiresIn)
     {
-        $this->vkontakteExpiresIn = $vkontakteExpiresIn;
+        $this->vkontakteExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait VkontakteTrait
      */
     public function setVkontakteFirstName($firstName)
     {
-        $this->vkontakteFirstName = $vkontakteFirstName;
+        $this->vkontakteFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait VkontakteTrait
      */
     public function setVkontakteLastName($lastName)
     {
-        $this->vkontakteLastName = $vkontakteLastName;
+        $this->vkontakteLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait VkontakteTrait
      */
     public function setVkontakteNickname($nickname)
     {
-        $this->vkontakteNickname = $vkontakteNickname;
+        $this->vkontakteNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait VkontakteTrait
      */
     public function setVkontakteProfilePicture($profilePicture)
     {
-        $this->vkontakteProfilePicture = $vkontakteProfilePicture;
+        $this->vkontakteProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait VkontakteTrait
      */
     public function setVkontakteRealName($realName)
     {
-        $this->vkontakteRealName = $vkontakteRealName;
+        $this->vkontakteRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait VkontakteTrait
      */
     public function setVkontakteRefreshToken($refreshToken)
     {
-        $this->vkontakteRefreshToken = $vkontakteRefreshToken;
+        $this->vkontakteRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait VkontakteTrait
      */
     public function setVkontakteUsername($username)
     {
-        $this->vkontakteUsername = $vkontakteUsername;
+        $this->vkontakteUsername = $username;
 
         return $this;
     }

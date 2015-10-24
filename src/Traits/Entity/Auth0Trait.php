@@ -261,7 +261,7 @@ trait Auth0Trait
      */
     public function setAuth0Email($email)
     {
-        $this->auth0Email = $auth0Email;
+        $this->auth0Email = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait Auth0Trait
      */
     public function setAuth0ExpiresIn($expiresIn)
     {
-        $this->auth0ExpiresIn = $auth0ExpiresIn;
+        $this->auth0ExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait Auth0Trait
      */
     public function setAuth0FirstName($firstName)
     {
-        $this->auth0FirstName = $auth0FirstName;
+        $this->auth0FirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait Auth0Trait
      */
     public function setAuth0LastName($lastName)
     {
-        $this->auth0LastName = $auth0LastName;
+        $this->auth0LastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait Auth0Trait
      */
     public function setAuth0Nickname($nickname)
     {
-        $this->auth0Nickname = $auth0Nickname;
+        $this->auth0Nickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait Auth0Trait
      */
     public function setAuth0ProfilePicture($profilePicture)
     {
-        $this->auth0ProfilePicture = $auth0ProfilePicture;
+        $this->auth0ProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait Auth0Trait
      */
     public function setAuth0RealName($realName)
     {
-        $this->auth0RealName = $auth0RealName;
+        $this->auth0RealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait Auth0Trait
      */
     public function setAuth0RefreshToken($refreshToken)
     {
-        $this->auth0RefreshToken = $auth0RefreshToken;
+        $this->auth0RefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait Auth0Trait
      */
     public function setAuth0Username($username)
     {
-        $this->auth0Username = $auth0Username;
+        $this->auth0Username = $username;
 
         return $this;
     }

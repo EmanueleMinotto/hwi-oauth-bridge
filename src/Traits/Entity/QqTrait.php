@@ -233,7 +233,7 @@ trait QqTrait
      */
     public function setQqAccessToken($accessToken)
     {
-        $this->qqAccessToken = $qqAccessToken;
+        $this->qqAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait QqTrait
      *
      * @return self
      */
-    public function setQqData(array $qqData = null)
+    public function setQqData(array $data = null)
     {
-        $this->qqData = $qqData;
+        $this->qqData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait QqTrait
      */
     public function setQqEmail($email)
     {
-        $this->qqEmail = $qqEmail;
+        $this->qqEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait QqTrait
      */
     public function setQqExpiresIn($expiresIn)
     {
-        $this->qqExpiresIn = $qqExpiresIn;
+        $this->qqExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait QqTrait
      */
     public function setQqFirstName($firstName)
     {
-        $this->qqFirstName = $qqFirstName;
+        $this->qqFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait QqTrait
      */
     public function setQqLastName($lastName)
     {
-        $this->qqLastName = $qqLastName;
+        $this->qqLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait QqTrait
      */
     public function setQqNickname($nickname)
     {
-        $this->qqNickname = $qqNickname;
+        $this->qqNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait QqTrait
      */
     public function setQqProfilePicture($profilePicture)
     {
-        $this->qqProfilePicture = $qqProfilePicture;
+        $this->qqProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait QqTrait
      */
     public function setQqRealName($realName)
     {
-        $this->qqRealName = $qqRealName;
+        $this->qqRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait QqTrait
      */
     public function setQqRefreshToken($refreshToken)
     {
-        $this->qqRefreshToken = $qqRefreshToken;
+        $this->qqRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait QqTrait
      */
     public function setQqUsername($username)
     {
-        $this->qqUsername = $qqUsername;
+        $this->qqUsername = $username;
 
         return $this;
     }

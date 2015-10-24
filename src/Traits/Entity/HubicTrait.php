@@ -233,7 +233,7 @@ trait HubicTrait
      */
     public function setHubicAccessToken($accessToken)
     {
-        $this->hubicAccessToken = $hubicAccessToken;
+        $this->hubicAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait HubicTrait
      *
      * @return self
      */
-    public function setHubicData(array $hubicData = null)
+    public function setHubicData(array $data = null)
     {
-        $this->hubicData = $hubicData;
+        $this->hubicData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait HubicTrait
      */
     public function setHubicEmail($email)
     {
-        $this->hubicEmail = $hubicEmail;
+        $this->hubicEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait HubicTrait
      */
     public function setHubicExpiresIn($expiresIn)
     {
-        $this->hubicExpiresIn = $hubicExpiresIn;
+        $this->hubicExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait HubicTrait
      */
     public function setHubicFirstName($firstName)
     {
-        $this->hubicFirstName = $hubicFirstName;
+        $this->hubicFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait HubicTrait
      */
     public function setHubicLastName($lastName)
     {
-        $this->hubicLastName = $hubicLastName;
+        $this->hubicLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait HubicTrait
      */
     public function setHubicNickname($nickname)
     {
-        $this->hubicNickname = $hubicNickname;
+        $this->hubicNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait HubicTrait
      */
     public function setHubicProfilePicture($profilePicture)
     {
-        $this->hubicProfilePicture = $hubicProfilePicture;
+        $this->hubicProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait HubicTrait
      */
     public function setHubicRealName($realName)
     {
-        $this->hubicRealName = $hubicRealName;
+        $this->hubicRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait HubicTrait
      */
     public function setHubicRefreshToken($refreshToken)
     {
-        $this->hubicRefreshToken = $hubicRefreshToken;
+        $this->hubicRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait HubicTrait
      */
     public function setHubicUsername($username)
     {
-        $this->hubicUsername = $hubicUsername;
+        $this->hubicUsername = $username;
 
         return $this;
     }

@@ -233,7 +233,7 @@ trait SalesforceTrait
      */
     public function setSalesforceAccessToken($accessToken)
     {
-        $this->salesforceAccessToken = $salesforceAccessToken;
+        $this->salesforceAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait SalesforceTrait
      *
      * @return self
      */
-    public function setSalesforceData(array $salesforceData = null)
+    public function setSalesforceData(array $data = null)
     {
-        $this->salesforceData = $salesforceData;
+        $this->salesforceData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait SalesforceTrait
      */
     public function setSalesforceEmail($email)
     {
-        $this->salesforceEmail = $salesforceEmail;
+        $this->salesforceEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait SalesforceTrait
      */
     public function setSalesforceExpiresIn($expiresIn)
     {
-        $this->salesforceExpiresIn = $salesforceExpiresIn;
+        $this->salesforceExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait SalesforceTrait
      */
     public function setSalesforceFirstName($firstName)
     {
-        $this->salesforceFirstName = $salesforceFirstName;
+        $this->salesforceFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait SalesforceTrait
      */
     public function setSalesforceLastName($lastName)
     {
-        $this->salesforceLastName = $salesforceLastName;
+        $this->salesforceLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait SalesforceTrait
      */
     public function setSalesforceNickname($nickname)
     {
-        $this->salesforceNickname = $salesforceNickname;
+        $this->salesforceNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait SalesforceTrait
      */
     public function setSalesforceProfilePicture($profilePicture)
     {
-        $this->salesforceProfilePicture = $salesforceProfilePicture;
+        $this->salesforceProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait SalesforceTrait
      */
     public function setSalesforceRealName($realName)
     {
-        $this->salesforceRealName = $salesforceRealName;
+        $this->salesforceRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait SalesforceTrait
      */
     public function setSalesforceRefreshToken($refreshToken)
     {
-        $this->salesforceRefreshToken = $salesforceRefreshToken;
+        $this->salesforceRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait SalesforceTrait
      */
     public function setSalesforceUsername($username)
     {
-        $this->salesforceUsername = $salesforceUsername;
+        $this->salesforceUsername = $username;
 
         return $this;
     }

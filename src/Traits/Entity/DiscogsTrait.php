@@ -233,7 +233,7 @@ trait DiscogsTrait
      */
     public function setDiscogsAccessToken($accessToken)
     {
-        $this->discogsAccessToken = $discogsAccessToken;
+        $this->discogsAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait DiscogsTrait
      *
      * @return self
      */
-    public function setDiscogsData(array $discogsData = null)
+    public function setDiscogsData(array $data = null)
     {
-        $this->discogsData = $discogsData;
+        $this->discogsData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait DiscogsTrait
      */
     public function setDiscogsEmail($email)
     {
-        $this->discogsEmail = $discogsEmail;
+        $this->discogsEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait DiscogsTrait
      */
     public function setDiscogsExpiresIn($expiresIn)
     {
-        $this->discogsExpiresIn = $discogsExpiresIn;
+        $this->discogsExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait DiscogsTrait
      */
     public function setDiscogsFirstName($firstName)
     {
-        $this->discogsFirstName = $discogsFirstName;
+        $this->discogsFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait DiscogsTrait
      */
     public function setDiscogsLastName($lastName)
     {
-        $this->discogsLastName = $discogsLastName;
+        $this->discogsLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait DiscogsTrait
      */
     public function setDiscogsNickname($nickname)
     {
-        $this->discogsNickname = $discogsNickname;
+        $this->discogsNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait DiscogsTrait
      */
     public function setDiscogsProfilePicture($profilePicture)
     {
-        $this->discogsProfilePicture = $discogsProfilePicture;
+        $this->discogsProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait DiscogsTrait
      */
     public function setDiscogsRealName($realName)
     {
-        $this->discogsRealName = $discogsRealName;
+        $this->discogsRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait DiscogsTrait
      */
     public function setDiscogsRefreshToken($refreshToken)
     {
-        $this->discogsRefreshToken = $discogsRefreshToken;
+        $this->discogsRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait DiscogsTrait
      */
     public function setDiscogsUsername($username)
     {
-        $this->discogsUsername = $discogsUsername;
+        $this->discogsUsername = $username;
 
         return $this;
     }

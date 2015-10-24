@@ -233,7 +233,7 @@ trait AmazonTrait
      */
     public function setAmazonAccessToken($accessToken)
     {
-        $this->amazonAccessToken = $amazonAccessToken;
+        $this->amazonAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait AmazonTrait
      *
      * @return self
      */
-    public function setAmazonData(array $amazonData = null)
+    public function setAmazonData(array $data = null)
     {
-        $this->amazonData = $amazonData;
+        $this->amazonData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait AmazonTrait
      */
     public function setAmazonEmail($email)
     {
-        $this->amazonEmail = $amazonEmail;
+        $this->amazonEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait AmazonTrait
      */
     public function setAmazonExpiresIn($expiresIn)
     {
-        $this->amazonExpiresIn = $amazonExpiresIn;
+        $this->amazonExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait AmazonTrait
      */
     public function setAmazonFirstName($firstName)
     {
-        $this->amazonFirstName = $amazonFirstName;
+        $this->amazonFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait AmazonTrait
      */
     public function setAmazonLastName($lastName)
     {
-        $this->amazonLastName = $amazonLastName;
+        $this->amazonLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait AmazonTrait
      */
     public function setAmazonNickname($nickname)
     {
-        $this->amazonNickname = $amazonNickname;
+        $this->amazonNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait AmazonTrait
      */
     public function setAmazonProfilePicture($profilePicture)
     {
-        $this->amazonProfilePicture = $amazonProfilePicture;
+        $this->amazonProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait AmazonTrait
      */
     public function setAmazonRealName($realName)
     {
-        $this->amazonRealName = $amazonRealName;
+        $this->amazonRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait AmazonTrait
      */
     public function setAmazonRefreshToken($refreshToken)
     {
-        $this->amazonRefreshToken = $amazonRefreshToken;
+        $this->amazonRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait AmazonTrait
      */
     public function setAmazonUsername($username)
     {
-        $this->amazonUsername = $amazonUsername;
+        $this->amazonUsername = $username;
 
         return $this;
     }

@@ -233,7 +233,7 @@ trait SignalsTrait
      */
     public function setSignalsAccessToken($accessToken)
     {
-        $this->signalsAccessToken = $signalsAccessToken;
+        $this->signalsAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait SignalsTrait
      *
      * @return self
      */
-    public function setSignalsData(array $signalsData = null)
+    public function setSignalsData(array $data = null)
     {
-        $this->signalsData = $signalsData;
+        $this->signalsData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait SignalsTrait
      */
     public function setSignalsEmail($email)
     {
-        $this->signalsEmail = $signalsEmail;
+        $this->signalsEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait SignalsTrait
      */
     public function setSignalsExpiresIn($expiresIn)
     {
-        $this->signalsExpiresIn = $signalsExpiresIn;
+        $this->signalsExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait SignalsTrait
      */
     public function setSignalsFirstName($firstName)
     {
-        $this->signalsFirstName = $signalsFirstName;
+        $this->signalsFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait SignalsTrait
      */
     public function setSignalsLastName($lastName)
     {
-        $this->signalsLastName = $signalsLastName;
+        $this->signalsLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait SignalsTrait
      */
     public function setSignalsNickname($nickname)
     {
-        $this->signalsNickname = $signalsNickname;
+        $this->signalsNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait SignalsTrait
      */
     public function setSignalsProfilePicture($profilePicture)
     {
-        $this->signalsProfilePicture = $signalsProfilePicture;
+        $this->signalsProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait SignalsTrait
      */
     public function setSignalsRealName($realName)
     {
-        $this->signalsRealName = $signalsRealName;
+        $this->signalsRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait SignalsTrait
      */
     public function setSignalsRefreshToken($refreshToken)
     {
-        $this->signalsRefreshToken = $signalsRefreshToken;
+        $this->signalsRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait SignalsTrait
      */
     public function setSignalsUsername($username)
     {
-        $this->signalsUsername = $signalsUsername;
+        $this->signalsUsername = $username;
 
         return $this;
     }

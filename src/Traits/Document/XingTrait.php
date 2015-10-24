@@ -233,7 +233,7 @@ trait XingTrait
      */
     public function setXingAccessToken($accessToken)
     {
-        $this->xingAccessToken = $xingAccessToken;
+        $this->xingAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait XingTrait
      *
      * @return self
      */
-    public function setXingData(array $xingData = null)
+    public function setXingData(array $data = null)
     {
-        $this->xingData = $xingData;
+        $this->xingData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait XingTrait
      */
     public function setXingEmail($email)
     {
-        $this->xingEmail = $xingEmail;
+        $this->xingEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait XingTrait
      */
     public function setXingExpiresIn($expiresIn)
     {
-        $this->xingExpiresIn = $xingExpiresIn;
+        $this->xingExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait XingTrait
      */
     public function setXingFirstName($firstName)
     {
-        $this->xingFirstName = $xingFirstName;
+        $this->xingFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait XingTrait
      */
     public function setXingLastName($lastName)
     {
-        $this->xingLastName = $xingLastName;
+        $this->xingLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait XingTrait
      */
     public function setXingNickname($nickname)
     {
-        $this->xingNickname = $xingNickname;
+        $this->xingNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait XingTrait
      */
     public function setXingProfilePicture($profilePicture)
     {
-        $this->xingProfilePicture = $xingProfilePicture;
+        $this->xingProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait XingTrait
      */
     public function setXingRealName($realName)
     {
-        $this->xingRealName = $xingRealName;
+        $this->xingRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait XingTrait
      */
     public function setXingRefreshToken($refreshToken)
     {
-        $this->xingRefreshToken = $xingRefreshToken;
+        $this->xingRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait XingTrait
      */
     public function setXingUsername($username)
     {
-        $this->xingUsername = $xingUsername;
+        $this->xingUsername = $username;
 
         return $this;
     }

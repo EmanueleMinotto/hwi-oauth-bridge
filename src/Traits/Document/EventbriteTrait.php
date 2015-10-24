@@ -233,7 +233,7 @@ trait EventbriteTrait
      */
     public function setEventbriteAccessToken($accessToken)
     {
-        $this->eventbriteAccessToken = $eventbriteAccessToken;
+        $this->eventbriteAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait EventbriteTrait
      *
      * @return self
      */
-    public function setEventbriteData(array $eventbriteData = null)
+    public function setEventbriteData(array $data = null)
     {
-        $this->eventbriteData = $eventbriteData;
+        $this->eventbriteData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait EventbriteTrait
      */
     public function setEventbriteEmail($email)
     {
-        $this->eventbriteEmail = $eventbriteEmail;
+        $this->eventbriteEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait EventbriteTrait
      */
     public function setEventbriteExpiresIn($expiresIn)
     {
-        $this->eventbriteExpiresIn = $eventbriteExpiresIn;
+        $this->eventbriteExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait EventbriteTrait
      */
     public function setEventbriteFirstName($firstName)
     {
-        $this->eventbriteFirstName = $eventbriteFirstName;
+        $this->eventbriteFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait EventbriteTrait
      */
     public function setEventbriteLastName($lastName)
     {
-        $this->eventbriteLastName = $eventbriteLastName;
+        $this->eventbriteLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait EventbriteTrait
      */
     public function setEventbriteNickname($nickname)
     {
-        $this->eventbriteNickname = $eventbriteNickname;
+        $this->eventbriteNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait EventbriteTrait
      */
     public function setEventbriteProfilePicture($profilePicture)
     {
-        $this->eventbriteProfilePicture = $eventbriteProfilePicture;
+        $this->eventbriteProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait EventbriteTrait
      */
     public function setEventbriteRealName($realName)
     {
-        $this->eventbriteRealName = $eventbriteRealName;
+        $this->eventbriteRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait EventbriteTrait
      */
     public function setEventbriteRefreshToken($refreshToken)
     {
-        $this->eventbriteRefreshToken = $eventbriteRefreshToken;
+        $this->eventbriteRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait EventbriteTrait
      */
     public function setEventbriteUsername($username)
     {
-        $this->eventbriteUsername = $eventbriteUsername;
+        $this->eventbriteUsername = $username;
 
         return $this;
     }

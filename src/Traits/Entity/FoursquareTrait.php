@@ -233,7 +233,7 @@ trait FoursquareTrait
      */
     public function setFoursquareAccessToken($accessToken)
     {
-        $this->foursquareAccessToken = $foursquareAccessToken;
+        $this->foursquareAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait FoursquareTrait
      *
      * @return self
      */
-    public function setFoursquareData(array $foursquareData = null)
+    public function setFoursquareData(array $data = null)
     {
-        $this->foursquareData = $foursquareData;
+        $this->foursquareData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait FoursquareTrait
      */
     public function setFoursquareEmail($email)
     {
-        $this->foursquareEmail = $foursquareEmail;
+        $this->foursquareEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait FoursquareTrait
      */
     public function setFoursquareExpiresIn($expiresIn)
     {
-        $this->foursquareExpiresIn = $foursquareExpiresIn;
+        $this->foursquareExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait FoursquareTrait
      */
     public function setFoursquareFirstName($firstName)
     {
-        $this->foursquareFirstName = $foursquareFirstName;
+        $this->foursquareFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait FoursquareTrait
      */
     public function setFoursquareLastName($lastName)
     {
-        $this->foursquareLastName = $foursquareLastName;
+        $this->foursquareLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait FoursquareTrait
      */
     public function setFoursquareNickname($nickname)
     {
-        $this->foursquareNickname = $foursquareNickname;
+        $this->foursquareNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait FoursquareTrait
      */
     public function setFoursquareProfilePicture($profilePicture)
     {
-        $this->foursquareProfilePicture = $foursquareProfilePicture;
+        $this->foursquareProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait FoursquareTrait
      */
     public function setFoursquareRealName($realName)
     {
-        $this->foursquareRealName = $foursquareRealName;
+        $this->foursquareRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait FoursquareTrait
      */
     public function setFoursquareRefreshToken($refreshToken)
     {
-        $this->foursquareRefreshToken = $foursquareRefreshToken;
+        $this->foursquareRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait FoursquareTrait
      */
     public function setFoursquareUsername($username)
     {
-        $this->foursquareUsername = $foursquareUsername;
+        $this->foursquareUsername = $username;
 
         return $this;
     }

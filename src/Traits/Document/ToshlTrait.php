@@ -233,7 +233,7 @@ trait ToshlTrait
      */
     public function setToshlAccessToken($accessToken)
     {
-        $this->toshlAccessToken = $toshlAccessToken;
+        $this->toshlAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait ToshlTrait
      *
      * @return self
      */
-    public function setToshlData(array $toshlData = null)
+    public function setToshlData(array $data = null)
     {
-        $this->toshlData = $toshlData;
+        $this->toshlData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait ToshlTrait
      */
     public function setToshlEmail($email)
     {
-        $this->toshlEmail = $toshlEmail;
+        $this->toshlEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait ToshlTrait
      */
     public function setToshlExpiresIn($expiresIn)
     {
-        $this->toshlExpiresIn = $toshlExpiresIn;
+        $this->toshlExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait ToshlTrait
      */
     public function setToshlFirstName($firstName)
     {
-        $this->toshlFirstName = $toshlFirstName;
+        $this->toshlFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait ToshlTrait
      */
     public function setToshlLastName($lastName)
     {
-        $this->toshlLastName = $toshlLastName;
+        $this->toshlLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait ToshlTrait
      */
     public function setToshlNickname($nickname)
     {
-        $this->toshlNickname = $toshlNickname;
+        $this->toshlNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait ToshlTrait
      */
     public function setToshlProfilePicture($profilePicture)
     {
-        $this->toshlProfilePicture = $toshlProfilePicture;
+        $this->toshlProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait ToshlTrait
      */
     public function setToshlRealName($realName)
     {
-        $this->toshlRealName = $toshlRealName;
+        $this->toshlRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait ToshlTrait
      */
     public function setToshlRefreshToken($refreshToken)
     {
-        $this->toshlRefreshToken = $toshlRefreshToken;
+        $this->toshlRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait ToshlTrait
      */
     public function setToshlUsername($username)
     {
-        $this->toshlUsername = $toshlUsername;
+        $this->toshlUsername = $username;
 
         return $this;
     }

@@ -233,7 +233,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiAccessToken($accessToken)
     {
-        $this->odnoklassnikiAccessToken = $odnoklassnikiAccessToken;
+        $this->odnoklassnikiAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait OdnoklassnikiTrait
      *
      * @return self
      */
-    public function setOdnoklassnikiData(array $odnoklassnikiData = null)
+    public function setOdnoklassnikiData(array $data = null)
     {
-        $this->odnoklassnikiData = $odnoklassnikiData;
+        $this->odnoklassnikiData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiEmail($email)
     {
-        $this->odnoklassnikiEmail = $odnoklassnikiEmail;
+        $this->odnoklassnikiEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiExpiresIn($expiresIn)
     {
-        $this->odnoklassnikiExpiresIn = $odnoklassnikiExpiresIn;
+        $this->odnoklassnikiExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiFirstName($firstName)
     {
-        $this->odnoklassnikiFirstName = $odnoklassnikiFirstName;
+        $this->odnoklassnikiFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiLastName($lastName)
     {
-        $this->odnoklassnikiLastName = $odnoklassnikiLastName;
+        $this->odnoklassnikiLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiNickname($nickname)
     {
-        $this->odnoklassnikiNickname = $odnoklassnikiNickname;
+        $this->odnoklassnikiNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiProfilePicture($profilePicture)
     {
-        $this->odnoklassnikiProfilePicture = $odnoklassnikiProfilePicture;
+        $this->odnoklassnikiProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiRealName($realName)
     {
-        $this->odnoklassnikiRealName = $odnoklassnikiRealName;
+        $this->odnoklassnikiRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiRefreshToken($refreshToken)
     {
-        $this->odnoklassnikiRefreshToken = $odnoklassnikiRefreshToken;
+        $this->odnoklassnikiRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait OdnoklassnikiTrait
      */
     public function setOdnoklassnikiUsername($username)
     {
-        $this->odnoklassnikiUsername = $odnoklassnikiUsername;
+        $this->odnoklassnikiUsername = $username;
 
         return $this;
     }

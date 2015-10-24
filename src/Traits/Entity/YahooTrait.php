@@ -233,7 +233,7 @@ trait YahooTrait
      */
     public function setYahooAccessToken($accessToken)
     {
-        $this->yahooAccessToken = $yahooAccessToken;
+        $this->yahooAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait YahooTrait
      *
      * @return self
      */
-    public function setYahooData(array $yahooData = null)
+    public function setYahooData(array $data = null)
     {
-        $this->yahooData = $yahooData;
+        $this->yahooData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait YahooTrait
      */
     public function setYahooEmail($email)
     {
-        $this->yahooEmail = $yahooEmail;
+        $this->yahooEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait YahooTrait
      */
     public function setYahooExpiresIn($expiresIn)
     {
-        $this->yahooExpiresIn = $yahooExpiresIn;
+        $this->yahooExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait YahooTrait
      */
     public function setYahooFirstName($firstName)
     {
-        $this->yahooFirstName = $yahooFirstName;
+        $this->yahooFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait YahooTrait
      */
     public function setYahooLastName($lastName)
     {
-        $this->yahooLastName = $yahooLastName;
+        $this->yahooLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait YahooTrait
      */
     public function setYahooNickname($nickname)
     {
-        $this->yahooNickname = $yahooNickname;
+        $this->yahooNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait YahooTrait
      */
     public function setYahooProfilePicture($profilePicture)
     {
-        $this->yahooProfilePicture = $yahooProfilePicture;
+        $this->yahooProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait YahooTrait
      */
     public function setYahooRealName($realName)
     {
-        $this->yahooRealName = $yahooRealName;
+        $this->yahooRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait YahooTrait
      */
     public function setYahooRefreshToken($refreshToken)
     {
-        $this->yahooRefreshToken = $yahooRefreshToken;
+        $this->yahooRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait YahooTrait
      */
     public function setYahooUsername($username)
     {
-        $this->yahooUsername = $yahooUsername;
+        $this->yahooUsername = $username;
 
         return $this;
     }

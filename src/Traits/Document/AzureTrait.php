@@ -233,7 +233,7 @@ trait AzureTrait
      */
     public function setAzureAccessToken($accessToken)
     {
-        $this->azureAccessToken = $azureAccessToken;
+        $this->azureAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait AzureTrait
      *
      * @return self
      */
-    public function setAzureData(array $azureData = null)
+    public function setAzureData(array $data = null)
     {
-        $this->azureData = $azureData;
+        $this->azureData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait AzureTrait
      */
     public function setAzureEmail($email)
     {
-        $this->azureEmail = $azureEmail;
+        $this->azureEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait AzureTrait
      */
     public function setAzureExpiresIn($expiresIn)
     {
-        $this->azureExpiresIn = $azureExpiresIn;
+        $this->azureExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait AzureTrait
      */
     public function setAzureFirstName($firstName)
     {
-        $this->azureFirstName = $azureFirstName;
+        $this->azureFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait AzureTrait
      */
     public function setAzureLastName($lastName)
     {
-        $this->azureLastName = $azureLastName;
+        $this->azureLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait AzureTrait
      */
     public function setAzureNickname($nickname)
     {
-        $this->azureNickname = $azureNickname;
+        $this->azureNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait AzureTrait
      */
     public function setAzureProfilePicture($profilePicture)
     {
-        $this->azureProfilePicture = $azureProfilePicture;
+        $this->azureProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait AzureTrait
      */
     public function setAzureRealName($realName)
     {
-        $this->azureRealName = $azureRealName;
+        $this->azureRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait AzureTrait
      */
     public function setAzureRefreshToken($refreshToken)
     {
-        $this->azureRefreshToken = $azureRefreshToken;
+        $this->azureRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait AzureTrait
      */
     public function setAzureUsername($username)
     {
-        $this->azureUsername = $azureUsername;
+        $this->azureUsername = $username;
 
         return $this;
     }

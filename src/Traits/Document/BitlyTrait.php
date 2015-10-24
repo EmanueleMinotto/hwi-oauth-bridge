@@ -233,7 +233,7 @@ trait BitlyTrait
      */
     public function setBitlyAccessToken($accessToken)
     {
-        $this->bitlyAccessToken = $bitlyAccessToken;
+        $this->bitlyAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait BitlyTrait
      *
      * @return self
      */
-    public function setBitlyData(array $bitlyData = null)
+    public function setBitlyData(array $data = null)
     {
-        $this->bitlyData = $bitlyData;
+        $this->bitlyData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait BitlyTrait
      */
     public function setBitlyEmail($email)
     {
-        $this->bitlyEmail = $bitlyEmail;
+        $this->bitlyEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait BitlyTrait
      */
     public function setBitlyExpiresIn($expiresIn)
     {
-        $this->bitlyExpiresIn = $bitlyExpiresIn;
+        $this->bitlyExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait BitlyTrait
      */
     public function setBitlyFirstName($firstName)
     {
-        $this->bitlyFirstName = $bitlyFirstName;
+        $this->bitlyFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait BitlyTrait
      */
     public function setBitlyLastName($lastName)
     {
-        $this->bitlyLastName = $bitlyLastName;
+        $this->bitlyLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait BitlyTrait
      */
     public function setBitlyNickname($nickname)
     {
-        $this->bitlyNickname = $bitlyNickname;
+        $this->bitlyNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait BitlyTrait
      */
     public function setBitlyProfilePicture($profilePicture)
     {
-        $this->bitlyProfilePicture = $bitlyProfilePicture;
+        $this->bitlyProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait BitlyTrait
      */
     public function setBitlyRealName($realName)
     {
-        $this->bitlyRealName = $bitlyRealName;
+        $this->bitlyRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait BitlyTrait
      */
     public function setBitlyRefreshToken($refreshToken)
     {
-        $this->bitlyRefreshToken = $bitlyRefreshToken;
+        $this->bitlyRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait BitlyTrait
      */
     public function setBitlyUsername($username)
     {
-        $this->bitlyUsername = $bitlyUsername;
+        $this->bitlyUsername = $username;
 
         return $this;
     }

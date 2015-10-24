@@ -233,7 +233,7 @@ trait YandexTrait
      */
     public function setYandexAccessToken($accessToken)
     {
-        $this->yandexAccessToken = $yandexAccessToken;
+        $this->yandexAccessToken = $accessToken;
 
         return $this;
     }
@@ -245,9 +245,9 @@ trait YandexTrait
      *
      * @return self
      */
-    public function setYandexData(array $yandexData = null)
+    public function setYandexData(array $data = null)
     {
-        $this->yandexData = $yandexData;
+        $this->yandexData = $data;
 
         return $this;
     }
@@ -261,7 +261,7 @@ trait YandexTrait
      */
     public function setYandexEmail($email)
     {
-        $this->yandexEmail = $yandexEmail;
+        $this->yandexEmail = $email;
 
         return $this;
     }
@@ -275,7 +275,7 @@ trait YandexTrait
      */
     public function setYandexExpiresIn($expiresIn)
     {
-        $this->yandexExpiresIn = $yandexExpiresIn;
+        $this->yandexExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -289,7 +289,7 @@ trait YandexTrait
      */
     public function setYandexFirstName($firstName)
     {
-        $this->yandexFirstName = $yandexFirstName;
+        $this->yandexFirstName = $firstName;
 
         return $this;
     }
@@ -303,7 +303,7 @@ trait YandexTrait
      */
     public function setYandexLastName($lastName)
     {
-        $this->yandexLastName = $yandexLastName;
+        $this->yandexLastName = $lastName;
 
         return $this;
     }
@@ -317,7 +317,7 @@ trait YandexTrait
      */
     public function setYandexNickname($nickname)
     {
-        $this->yandexNickname = $yandexNickname;
+        $this->yandexNickname = $nickname;
 
         return $this;
     }
@@ -331,7 +331,7 @@ trait YandexTrait
      */
     public function setYandexProfilePicture($profilePicture)
     {
-        $this->yandexProfilePicture = $yandexProfilePicture;
+        $this->yandexProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -345,7 +345,7 @@ trait YandexTrait
      */
     public function setYandexRealName($realName)
     {
-        $this->yandexRealName = $yandexRealName;
+        $this->yandexRealName = $realName;
 
         return $this;
     }
@@ -359,7 +359,7 @@ trait YandexTrait
      */
     public function setYandexRefreshToken($refreshToken)
     {
-        $this->yandexRefreshToken = $yandexRefreshToken;
+        $this->yandexRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -373,7 +373,7 @@ trait YandexTrait
      */
     public function setYandexUsername($username)
     {
-        $this->yandexUsername = $yandexUsername;
+        $this->yandexUsername = $username;
 
         return $this;
     }
