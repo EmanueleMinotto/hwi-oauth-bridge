@@ -232,7 +232,7 @@ trait QqTrait
     /**
      * Sets the Qq data.
      *
-     * @param array|null $data the qq data
+     * @param array|null $data
      *
      * @return self
      */

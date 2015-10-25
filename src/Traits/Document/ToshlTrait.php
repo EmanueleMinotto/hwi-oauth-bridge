@@ -232,7 +232,7 @@ trait ToshlTrait
     /**
      * Sets the Toshl data.
      *
-     * @param array|null $data the toshl data
+     * @param array|null $data
      *
      * @return self
      */

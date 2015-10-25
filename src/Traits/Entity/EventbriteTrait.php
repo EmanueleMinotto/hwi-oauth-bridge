@@ -232,7 +232,7 @@ trait EventbriteTrait
     /**
      * Sets the Eventbrite data.
      *
-     * @param array|null $data the eventbrite data
+     * @param array|null $data
      *
      * @return self
      */

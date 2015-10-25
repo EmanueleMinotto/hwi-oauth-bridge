@@ -232,7 +232,7 @@ trait YahooTrait
     /**
      * Sets the Yahoo data.
      *
-     * @param array|null $data the yahoo data
+     * @param array|null $data
      *
      * @return self
      */

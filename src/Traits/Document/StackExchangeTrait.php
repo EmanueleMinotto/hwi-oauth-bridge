@@ -224,7 +224,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeAccessToken($accessToken)
     {
-        $this->stackExchangeAccessToken = $stackExchangeAccessToken;
+        $this->stackExchangeAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait StackExchangeTrait
     /**
      * Sets the StackExchange data.
      *
-     * @param array|null $stackExchangeData the stackExchange data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setStackExchangeData(array $stackExchangeData = null)
+    public function setStackExchangeData(array $data = null)
     {
-        $this->stackExchangeData = $stackExchangeData;
+        $this->stackExchangeData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeEmail($email)
     {
-        $this->stackExchangeEmail = $stackExchangeEmail;
+        $this->stackExchangeEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeExpiresIn($expiresIn)
     {
-        $this->stackExchangeExpiresIn = $stackExchangeExpiresIn;
+        $this->stackExchangeExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeFirstName($firstName)
     {
-        $this->stackExchangeFirstName = $stackExchangeFirstName;
+        $this->stackExchangeFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeLastName($lastName)
     {
-        $this->stackExchangeLastName = $stackExchangeLastName;
+        $this->stackExchangeLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeNickname($nickname)
     {
-        $this->stackExchangeNickname = $stackExchangeNickname;
+        $this->stackExchangeNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeProfilePicture($profilePicture)
     {
-        $this->stackExchangeProfilePicture = $stackExchangeProfilePicture;
+        $this->stackExchangeProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeRealName($realName)
     {
-        $this->stackExchangeRealName = $stackExchangeRealName;
+        $this->stackExchangeRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeRefreshToken($refreshToken)
     {
-        $this->stackExchangeRefreshToken = $stackExchangeRefreshToken;
+        $this->stackExchangeRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait StackExchangeTrait
      */
     public function setStackExchangeUsername($username)
     {
-        $this->stackExchangeUsername = $stackExchangeUsername;
+        $this->stackExchangeUsername = $username;
 
         return $this;
     }

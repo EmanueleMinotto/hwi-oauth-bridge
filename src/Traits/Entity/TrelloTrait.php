@@ -232,7 +232,7 @@ trait TrelloTrait
     /**
      * Sets the Trello data.
      *
-     * @param array|null $data the trello data
+     * @param array|null $data
      *
      * @return self
      */

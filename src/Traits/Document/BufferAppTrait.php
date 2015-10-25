@@ -224,7 +224,7 @@ trait BufferAppTrait
      */
     public function setBufferAppAccessToken($accessToken)
     {
-        $this->bufferAppAccessToken = $bufferAppAccessToken;
+        $this->bufferAppAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait BufferAppTrait
     /**
      * Sets the BufferApp data.
      *
-     * @param array|null $bufferAppData the bufferApp data
+     * @param array|null $appData the bufferApp data
      *
      * @return self
      */
-    public function setBufferAppData(array $bufferAppData = null)
+    public function setBufferAppData(array $appData = null)
     {
-        $this->bufferAppData = $bufferAppData;
+        $this->bufferAppData = $appData;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait BufferAppTrait
      */
     public function setBufferAppEmail($email)
     {
-        $this->bufferAppEmail = $bufferAppEmail;
+        $this->bufferAppEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait BufferAppTrait
      */
     public function setBufferAppExpiresIn($expiresIn)
     {
-        $this->bufferAppExpiresIn = $bufferAppExpiresIn;
+        $this->bufferAppExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait BufferAppTrait
      */
     public function setBufferAppFirstName($firstName)
     {
-        $this->bufferAppFirstName = $bufferAppFirstName;
+        $this->bufferAppFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait BufferAppTrait
      */
     public function setBufferAppLastName($lastName)
     {
-        $this->bufferAppLastName = $bufferAppLastName;
+        $this->bufferAppLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait BufferAppTrait
      */
     public function setBufferAppNickname($nickname)
     {
-        $this->bufferAppNickname = $bufferAppNickname;
+        $this->bufferAppNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait BufferAppTrait
      */
     public function setBufferAppProfilePicture($profilePicture)
     {
-        $this->bufferAppProfilePicture = $bufferAppProfilePicture;
+        $this->bufferAppProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait BufferAppTrait
      */
     public function setBufferAppRealName($realName)
     {
-        $this->bufferAppRealName = $bufferAppRealName;
+        $this->bufferAppRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait BufferAppTrait
      */
     public function setBufferAppRefreshToken($refreshToken)
     {
-        $this->bufferAppRefreshToken = $bufferAppRefreshToken;
+        $this->bufferAppRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait BufferAppTrait
      */
     public function setBufferAppUsername($username)
     {
-        $this->bufferAppUsername = $bufferAppUsername;
+        $this->bufferAppUsername = $username;
 
         return $this;
     }

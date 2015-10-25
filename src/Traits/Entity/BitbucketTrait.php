@@ -232,7 +232,7 @@ trait BitbucketTrait
     /**
      * Sets the Bitbucket data.
      *
-     * @param array|null $data the bitbucket data
+     * @param array|null $data
      *
      * @return self
      */

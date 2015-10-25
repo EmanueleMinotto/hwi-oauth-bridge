@@ -232,7 +232,7 @@ trait VkontakteTrait
     /**
      * Sets the Vkontakte data.
      *
-     * @param array|null $data the vkontakte data
+     * @param array|null $data
      *
      * @return self
      */

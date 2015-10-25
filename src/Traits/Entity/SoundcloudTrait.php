@@ -232,7 +232,7 @@ trait SoundcloudTrait
     /**
      * Sets the Soundcloud data.
      *
-     * @param array|null $data the soundcloud data
+     * @param array|null $data
      *
      * @return self
      */

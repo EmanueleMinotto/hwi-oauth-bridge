@@ -232,7 +232,7 @@ trait DropboxTrait
     /**
      * Sets the Dropbox data.
      *
-     * @param array|null $data the dropbox data
+     * @param array|null $data
      *
      * @return self
      */

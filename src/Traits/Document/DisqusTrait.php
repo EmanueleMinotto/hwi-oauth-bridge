@@ -232,7 +232,7 @@ trait DisqusTrait
     /**
      * Sets the Disqus data.
      *
-     * @param array|null $data the disqus data
+     * @param array|null $data
      *
      * @return self
      */

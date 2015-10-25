@@ -224,7 +224,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtAccessToken($accessToken)
     {
-        $this->deviantArtAccessToken = $deviantArtAccessToken;
+        $this->deviantArtAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait DeviantArtTrait
     /**
      * Sets the DeviantArt data.
      *
-     * @param array|null $deviantArtData the deviantArt data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setDeviantArtData(array $deviantArtData = null)
+    public function setDeviantArtData(array $data = null)
     {
-        $this->deviantArtData = $deviantArtData;
+        $this->deviantArtData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtEmail($email)
     {
-        $this->deviantArtEmail = $deviantArtEmail;
+        $this->deviantArtEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtExpiresIn($expiresIn)
     {
-        $this->deviantArtExpiresIn = $deviantArtExpiresIn;
+        $this->deviantArtExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtFirstName($firstName)
     {
-        $this->deviantArtFirstName = $deviantArtFirstName;
+        $this->deviantArtFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtLastName($lastName)
     {
-        $this->deviantArtLastName = $deviantArtLastName;
+        $this->deviantArtLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtNickname($nickname)
     {
-        $this->deviantArtNickname = $deviantArtNickname;
+        $this->deviantArtNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtProfilePicture($profilePicture)
     {
-        $this->deviantArtProfilePicture = $deviantArtProfilePicture;
+        $this->deviantArtProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtRealName($realName)
     {
-        $this->deviantArtRealName = $deviantArtRealName;
+        $this->deviantArtRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtRefreshToken($refreshToken)
     {
-        $this->deviantArtRefreshToken = $deviantArtRefreshToken;
+        $this->deviantArtRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait DeviantArtTrait
      */
     public function setDeviantArtUsername($username)
     {
-        $this->deviantArtUsername = $deviantArtUsername;
+        $this->deviantArtUsername = $username;
 
         return $this;
     }

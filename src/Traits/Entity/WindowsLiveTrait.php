@@ -224,7 +224,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveAccessToken($accessToken)
     {
-        $this->windowsLiveAccessToken = $windowsLiveAccessToken;
+        $this->windowsLiveAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait WindowsLiveTrait
     /**
      * Sets the WindowsLive data.
      *
-     * @param array|null $windowsLiveData the windowsLive data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setWindowsLiveData(array $windowsLiveData = null)
+    public function setWindowsLiveData(array $data = null)
     {
-        $this->windowsLiveData = $windowsLiveData;
+        $this->windowsLiveData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveEmail($email)
     {
-        $this->windowsLiveEmail = $windowsLiveEmail;
+        $this->windowsLiveEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveExpiresIn($expiresIn)
     {
-        $this->windowsLiveExpiresIn = $windowsLiveExpiresIn;
+        $this->windowsLiveExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveFirstName($firstName)
     {
-        $this->windowsLiveFirstName = $windowsLiveFirstName;
+        $this->windowsLiveFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveLastName($lastName)
     {
-        $this->windowsLiveLastName = $windowsLiveLastName;
+        $this->windowsLiveLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveNickname($nickname)
     {
-        $this->windowsLiveNickname = $windowsLiveNickname;
+        $this->windowsLiveNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveProfilePicture($profilePicture)
     {
-        $this->windowsLiveProfilePicture = $windowsLiveProfilePicture;
+        $this->windowsLiveProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveRealName($realName)
     {
-        $this->windowsLiveRealName = $windowsLiveRealName;
+        $this->windowsLiveRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveRefreshToken($refreshToken)
     {
-        $this->windowsLiveRefreshToken = $windowsLiveRefreshToken;
+        $this->windowsLiveRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait WindowsLiveTrait
      */
     public function setWindowsLiveUsername($username)
     {
-        $this->windowsLiveUsername = $windowsLiveUsername;
+        $this->windowsLiveUsername = $username;
 
         return $this;
     }

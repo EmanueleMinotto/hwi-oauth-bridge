@@ -224,7 +224,7 @@ trait GitHubTrait
      */
     public function setGitHubAccessToken($accessToken)
     {
-        $this->gitHubAccessToken = $gitHubAccessToken;
+        $this->gitHubAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait GitHubTrait
     /**
      * Sets the GitHub data.
      *
-     * @param array|null $gitHubData the gitHub data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setGitHubData(array $gitHubData = null)
+    public function setGitHubData(array $data = null)
     {
-        $this->gitHubData = $gitHubData;
+        $this->gitHubData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait GitHubTrait
      */
     public function setGitHubEmail($email)
     {
-        $this->gitHubEmail = $gitHubEmail;
+        $this->gitHubEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait GitHubTrait
      */
     public function setGitHubExpiresIn($expiresIn)
     {
-        $this->gitHubExpiresIn = $gitHubExpiresIn;
+        $this->gitHubExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait GitHubTrait
      */
     public function setGitHubFirstName($firstName)
     {
-        $this->gitHubFirstName = $gitHubFirstName;
+        $this->gitHubFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait GitHubTrait
      */
     public function setGitHubLastName($lastName)
     {
-        $this->gitHubLastName = $gitHubLastName;
+        $this->gitHubLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait GitHubTrait
      */
     public function setGitHubNickname($nickname)
     {
-        $this->gitHubNickname = $gitHubNickname;
+        $this->gitHubNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait GitHubTrait
      */
     public function setGitHubProfilePicture($profilePicture)
     {
-        $this->gitHubProfilePicture = $gitHubProfilePicture;
+        $this->gitHubProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait GitHubTrait
      */
     public function setGitHubRealName($realName)
     {
-        $this->gitHubRealName = $gitHubRealName;
+        $this->gitHubRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait GitHubTrait
      */
     public function setGitHubRefreshToken($refreshToken)
     {
-        $this->gitHubRefreshToken = $gitHubRefreshToken;
+        $this->gitHubRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait GitHubTrait
      */
     public function setGitHubUsername($username)
     {
-        $this->gitHubUsername = $gitHubUsername;
+        $this->gitHubUsername = $username;
 
         return $this;
     }

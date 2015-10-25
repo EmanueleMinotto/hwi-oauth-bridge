@@ -232,7 +232,7 @@ trait InstagramTrait
     /**
      * Sets the Instagram data.
      *
-     * @param array|null $data the instagram data
+     * @param array|null $data
      *
      * @return self
      */

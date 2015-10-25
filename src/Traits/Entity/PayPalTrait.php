@@ -224,7 +224,7 @@ trait PayPalTrait
      */
     public function setPayPalAccessToken($accessToken)
     {
-        $this->payPalAccessToken = $payPalAccessToken;
+        $this->payPalAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait PayPalTrait
     /**
      * Sets the PayPal data.
      *
-     * @param array|null $payPalData the payPal data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setPayPalData(array $payPalData = null)
+    public function setPayPalData(array $data = null)
     {
-        $this->payPalData = $payPalData;
+        $this->payPalData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait PayPalTrait
      */
     public function setPayPalEmail($email)
     {
-        $this->payPalEmail = $payPalEmail;
+        $this->payPalEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait PayPalTrait
      */
     public function setPayPalExpiresIn($expiresIn)
     {
-        $this->payPalExpiresIn = $payPalExpiresIn;
+        $this->payPalExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait PayPalTrait
      */
     public function setPayPalFirstName($firstName)
     {
-        $this->payPalFirstName = $payPalFirstName;
+        $this->payPalFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait PayPalTrait
      */
     public function setPayPalLastName($lastName)
     {
-        $this->payPalLastName = $payPalLastName;
+        $this->payPalLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait PayPalTrait
      */
     public function setPayPalNickname($nickname)
     {
-        $this->payPalNickname = $payPalNickname;
+        $this->payPalNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait PayPalTrait
      */
     public function setPayPalProfilePicture($profilePicture)
     {
-        $this->payPalProfilePicture = $payPalProfilePicture;
+        $this->payPalProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait PayPalTrait
      */
     public function setPayPalRealName($realName)
     {
-        $this->payPalRealName = $payPalRealName;
+        $this->payPalRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait PayPalTrait
      */
     public function setPayPalRefreshToken($refreshToken)
     {
-        $this->payPalRefreshToken = $payPalRefreshToken;
+        $this->payPalRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait PayPalTrait
      */
     public function setPayPalUsername($username)
     {
-        $this->payPalUsername = $payPalUsername;
+        $this->payPalUsername = $username;
 
         return $this;
     }

@@ -232,7 +232,7 @@ trait DiscogsTrait
     /**
      * Sets the Discogs data.
      *
-     * @param array|null $data the discogs data
+     * @param array|null $data
      *
      * @return self
      */

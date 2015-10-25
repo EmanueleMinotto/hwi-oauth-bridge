@@ -224,7 +224,7 @@ trait Auth0Trait
      */
     public function setAuth0AccessToken($accessToken)
     {
-        $this->auth0AccessToken = $auth0AccessToken;
+        $this->auth0AccessToken = $accessToken;
 
         return $this;
     }
@@ -232,7 +232,7 @@ trait Auth0Trait
     /**
      * Sets the Auth0 data.
      *
-     * @param array|null $data the auth0 data
+     * @param array|null $data
      *
      * @return self
      */

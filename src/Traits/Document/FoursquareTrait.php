@@ -232,7 +232,7 @@ trait FoursquareTrait
     /**
      * Sets the Foursquare data.
      *
-     * @param array|null $data the foursquare data
+     * @param array|null $data
      *
      * @return self
      */

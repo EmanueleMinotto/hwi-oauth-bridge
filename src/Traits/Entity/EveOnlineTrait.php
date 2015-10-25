@@ -224,7 +224,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineAccessToken($accessToken)
     {
-        $this->eveOnlineAccessToken = $eveOnlineAccessToken;
+        $this->eveOnlineAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait EveOnlineTrait
     /**
      * Sets the EveOnline data.
      *
-     * @param array|null $eveOnlineData the eveOnline data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setEveOnlineData(array $eveOnlineData = null)
+    public function setEveOnlineData(array $data = null)
     {
-        $this->eveOnlineData = $eveOnlineData;
+        $this->eveOnlineData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineEmail($email)
     {
-        $this->eveOnlineEmail = $eveOnlineEmail;
+        $this->eveOnlineEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineExpiresIn($expiresIn)
     {
-        $this->eveOnlineExpiresIn = $eveOnlineExpiresIn;
+        $this->eveOnlineExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineFirstName($firstName)
     {
-        $this->eveOnlineFirstName = $eveOnlineFirstName;
+        $this->eveOnlineFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineLastName($lastName)
     {
-        $this->eveOnlineLastName = $eveOnlineLastName;
+        $this->eveOnlineLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineNickname($nickname)
     {
-        $this->eveOnlineNickname = $eveOnlineNickname;
+        $this->eveOnlineNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineProfilePicture($profilePicture)
     {
-        $this->eveOnlineProfilePicture = $eveOnlineProfilePicture;
+        $this->eveOnlineProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineRealName($realName)
     {
-        $this->eveOnlineRealName = $eveOnlineRealName;
+        $this->eveOnlineRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineRefreshToken($refreshToken)
     {
-        $this->eveOnlineRefreshToken = $eveOnlineRefreshToken;
+        $this->eveOnlineRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait EveOnlineTrait
      */
     public function setEveOnlineUsername($username)
     {
-        $this->eveOnlineUsername = $eveOnlineUsername;
+        $this->eveOnlineUsername = $username;
 
         return $this;
     }

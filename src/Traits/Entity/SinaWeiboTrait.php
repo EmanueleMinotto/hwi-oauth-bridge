@@ -224,7 +224,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboAccessToken($accessToken)
     {
-        $this->sinaWeiboAccessToken = $sinaWeiboAccessToken;
+        $this->sinaWeiboAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait SinaWeiboTrait
     /**
      * Sets the SinaWeibo data.
      *
-     * @param array|null $sinaWeiboData the sinaWeibo data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setSinaWeiboData(array $sinaWeiboData = null)
+    public function setSinaWeiboData(array $data = null)
     {
-        $this->sinaWeiboData = $sinaWeiboData;
+        $this->sinaWeiboData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboEmail($email)
     {
-        $this->sinaWeiboEmail = $sinaWeiboEmail;
+        $this->sinaWeiboEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboExpiresIn($expiresIn)
     {
-        $this->sinaWeiboExpiresIn = $sinaWeiboExpiresIn;
+        $this->sinaWeiboExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboFirstName($firstName)
     {
-        $this->sinaWeiboFirstName = $sinaWeiboFirstName;
+        $this->sinaWeiboFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboLastName($lastName)
     {
-        $this->sinaWeiboLastName = $sinaWeiboLastName;
+        $this->sinaWeiboLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboNickname($nickname)
     {
-        $this->sinaWeiboNickname = $sinaWeiboNickname;
+        $this->sinaWeiboNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboProfilePicture($profilePicture)
     {
-        $this->sinaWeiboProfilePicture = $sinaWeiboProfilePicture;
+        $this->sinaWeiboProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboRealName($realName)
     {
-        $this->sinaWeiboRealName = $sinaWeiboRealName;
+        $this->sinaWeiboRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboRefreshToken($refreshToken)
     {
-        $this->sinaWeiboRefreshToken = $sinaWeiboRefreshToken;
+        $this->sinaWeiboRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait SinaWeiboTrait
      */
     public function setSinaWeiboUsername($username)
     {
-        $this->sinaWeiboUsername = $sinaWeiboUsername;
+        $this->sinaWeiboUsername = $username;
 
         return $this;
     }

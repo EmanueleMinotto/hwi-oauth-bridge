@@ -232,7 +232,7 @@ trait OdnoklassnikiTrait
     /**
      * Sets the Odnoklassniki data.
      *
-     * @param array|null $data the odnoklassniki data
+     * @param array|null $data
      *
      * @return self
      */

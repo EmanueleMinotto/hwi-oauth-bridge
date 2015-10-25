@@ -232,7 +232,7 @@ trait StereomoodTrait
     /**
      * Sets the Stereomood data.
      *
-     * @param array|null $data the stereomood data
+     * @param array|null $data
      *
      * @return self
      */

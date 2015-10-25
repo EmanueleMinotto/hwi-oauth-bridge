@@ -232,7 +232,7 @@ trait MailruTrait
     /**
      * Sets the Mailru data.
      *
-     * @param array|null $data the mailru data
+     * @param array|null $data
      *
      * @return self
      */

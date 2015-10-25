@@ -232,7 +232,7 @@ trait RedditTrait
     /**
      * Sets the Reddit data.
      *
-     * @param array|null $data the reddit data
+     * @param array|null $data
      *
      * @return self
      */

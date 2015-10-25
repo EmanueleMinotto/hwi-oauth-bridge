@@ -224,7 +224,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectAccessToken($accessToken)
     {
-        $this->sensioLabsConnectAccessToken = $sensioLabsConnectAccessToken;
+        $this->sensioLabsConnectAccessToken = $accessToken;
 
         return $this;
     }
@@ -232,13 +232,13 @@ trait SensioLabsConnectTrait
     /**
      * Sets the SensioLabsConnect data.
      *
-     * @param array|null $sensioLabsConnectData the sensioLabsConnect data
+     * @param array|null $data
      *
      * @return self
      */
-    public function setSensioLabsConnectData(array $sensioLabsConnectData = null)
+    public function setSensioLabsConnectData(array $data = null)
     {
-        $this->sensioLabsConnectData = $sensioLabsConnectData;
+        $this->sensioLabsConnectData = $data;
 
         return $this;
     }
@@ -252,7 +252,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectEmail($email)
     {
-        $this->sensioLabsConnectEmail = $sensioLabsConnectEmail;
+        $this->sensioLabsConnectEmail = $email;
 
         return $this;
     }
@@ -266,7 +266,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectExpiresIn($expiresIn)
     {
-        $this->sensioLabsConnectExpiresIn = $sensioLabsConnectExpiresIn;
+        $this->sensioLabsConnectExpiresIn = $expiresIn;
 
         return $this;
     }
@@ -280,7 +280,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectFirstName($firstName)
     {
-        $this->sensioLabsConnectFirstName = $sensioLabsConnectFirstName;
+        $this->sensioLabsConnectFirstName = $firstName;
 
         return $this;
     }
@@ -294,7 +294,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectLastName($lastName)
     {
-        $this->sensioLabsConnectLastName = $sensioLabsConnectLastName;
+        $this->sensioLabsConnectLastName = $lastName;
 
         return $this;
     }
@@ -308,7 +308,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectNickname($nickname)
     {
-        $this->sensioLabsConnectNickname = $sensioLabsConnectNickname;
+        $this->sensioLabsConnectNickname = $nickname;
 
         return $this;
     }
@@ -322,7 +322,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectProfilePicture($profilePicture)
     {
-        $this->sensioLabsConnectProfilePicture = $sensioLabsConnectProfilePicture;
+        $this->sensioLabsConnectProfilePicture = $profilePicture;
 
         return $this;
     }
@@ -336,7 +336,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectRealName($realName)
     {
-        $this->sensioLabsConnectRealName = $sensioLabsConnectRealName;
+        $this->sensioLabsConnectRealName = $realName;
 
         return $this;
     }
@@ -350,7 +350,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectRefreshToken($refreshToken)
     {
-        $this->sensioLabsConnectRefreshToken = $sensioLabsConnectRefreshToken;
+        $this->sensioLabsConnectRefreshToken = $refreshToken;
 
         return $this;
     }
@@ -364,7 +364,7 @@ trait SensioLabsConnectTrait
      */
     public function setSensioLabsConnectUsername($username)
     {
-        $this->sensioLabsConnectUsername = $sensioLabsConnectUsername;
+        $this->sensioLabsConnectUsername = $username;
 
         return $this;
     }

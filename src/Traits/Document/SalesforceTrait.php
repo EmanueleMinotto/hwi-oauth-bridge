@@ -232,7 +232,7 @@ trait SalesforceTrait
     /**
      * Sets the Salesforce data.
      *
-     * @param array|null $data the salesforce data
+     * @param array|null $data
      *
      * @return self
      */
