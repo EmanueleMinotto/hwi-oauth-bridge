@@ -2,7 +2,6 @@
 
 namespace EmanueleMinotto\HwiOauthBridge\Test\Traits;
 
-use EmanueleMinotto\HwiOauthBridge\Utils;
 use PHPUnit_Framework_TestCase;
 use ReflectionClass;
 
@@ -37,10 +36,19 @@ class TraitsAccessorsTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @return array
+     * @return array[]
      */
     public function traitsProvider()
     {
-        return Utils::getTraitsList();
+        $files = glob(__DIR__.'/../src/Traits/{Document,Entity}/*.php', GLOB_BRACE);
+
+        return array_map(function ($path) {
+            $class = basename($path, '.php');
+            $namespace = basename(dirname($path));
+
+            return array(
+                'EmanueleMinotto\HwiOauthBridge\Traits\\'.$namespace.'\\'.$class,
+            );
+        }, $files);
     }
 }

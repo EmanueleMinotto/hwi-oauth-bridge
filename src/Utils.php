@@ -13,15 +13,13 @@ class Utils
      */
     public static function getTraitsList($globPattern = '{Document,Entity}')
     {
-        $files = glob(__DIR__.'/Traits/'.$globPattern.'/*.php');
+        $files = glob(__DIR__.'/Traits/'.$globPattern.'/*.php', GLOB_BRACE);
 
         return array_map(function ($path) {
             $class = basename($path, '.php');
             $namespace = basename(dirname($path));
 
-            return array(
-                'EmanueleMinotto\HwiOauthBridge\Traits\\'.$namespace.'\\'.$class,
-            );
+            return 'EmanueleMinotto\HwiOauthBridge\Traits\\'.$namespace.'\\'.$class;
         }, $files);
     }
 
