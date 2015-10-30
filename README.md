@@ -19,7 +19,43 @@ $ composer require emanueleminotto/hwi-oauth-bridge
 
 ## Usage
 
-...
+To use one or more of included traits add them to your entities:
+
+```php
+namespace AppBundle;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\Table
+ */
+class Example
+{
+    use \EmanueleMinotto\HwiOauthBridge\Traits\Entity\FacebookTrait;
+
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     */
+    private $id;
+
+    // ...
+}
+```
+
+And all related methods will be available throught the trait, so:
+
+```$php
+$example = new AppBundle\Example();
+
+$example->setFacebookEmail('user@example.com');
+
+$em->persist($example);
+$em->flush();
+
+echo $example->getFacebookEmail(); // user@example.com
+```
 
 ## Testing
 
