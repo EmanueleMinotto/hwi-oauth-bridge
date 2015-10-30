@@ -46,7 +46,7 @@ class Example
 
 And all related methods will be available throught the trait, so:
 
-```$php
+```php
 $example = new AppBundle\Example();
 
 $example->setFacebookEmail('user@example.com');
@@ -57,9 +57,12 @@ $em->flush();
 echo $example->getFacebookEmail(); // user@example.com
 ```
 
+Doctrine 2 ORM are available under the folder *Entity* and Doctrine ODM under
+the *Document* folder.
+
 ## Testing
 
-``` bash
+```bash
 $ composer test
 ```
 
@@ -69,7 +72,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 ## Security
 
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email minottoemanuele@gmail.com instead of using the issue tracker.
 
 ## Credits
 
