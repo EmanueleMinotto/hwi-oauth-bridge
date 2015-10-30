@@ -37,14 +37,16 @@ class Utils
         $providers = array();
 
         foreach ($traitsList as $trait) {
-            $class = str_replace($type, null, basename($trait));
+            $class = preg_replace_callback('/(.*\\\)([a-z0-9]+)(Trait)/i', function ($match) {
+                return strtolower($match[2]);
+            }, $trait);
 
             // special case
             if ('signals' === $class) {
                 $class = sprintf('37%s', $class);
             }
 
-            $providers[$trait] = strtolower($class);
+            $providers[$trait] = $class;
         }
 
         return $providers;
